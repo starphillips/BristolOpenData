@@ -7,17 +7,34 @@ Advice drop-in: Users are having problems with several factors in their personal
 
 Libraries: Users may want a place they can study, find books needed, carry out research but may not have facilities to do this using their own devices. They will want to find out a facility where they can do this. The app will allow a user to locate their nearest library and what features each library has, e.g. a quiet area, computer access, group pods. 
 
-### Business benefits
 
+### Business benefits
+Advice drop in:
+- allows users to reach facilities that are accessible to them and can help them with their specific needs.
+
+Libraries:
+- gives students a place to study
+- allows people who may not have access to computers or books, a place to access this
+  
 
 ### Options Considered
 TODO: What are some other customer options or leading products that address the same needs?
-- Google Maps is already a service that can help to direct a user to the facilities, it can give the ones located in the area and offer a live or sattellite view
-- 
+
+Advice drop in 
+- Google Maps is already a service that can  direct a user to the facilities, it can give the ones located in the area and offer a live or satellite view
+- Drop in centre websites will already have an in-depth descriptions about the services they offer and who can access this
+
+Libraries
+- Google Maps is already a service that can  direct a user to the facilities, it can give the ones located in the area and offer a live or satellite view
+- Library websites will already have an in-depth descriptions about the services they offer and who can access this
+
+
 ### Expected Risks
 
+Advice drop in:
+- could give a user incorrect directions
 
-
+  
 Libraries: 
 - may not be able to check how busy the library is, if there is any spaces, or if all the facilities needed by the user are occupied
 - may lead a user to a library which does not hold the information / books they require
