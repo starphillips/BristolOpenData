@@ -3,30 +3,24 @@
 ## Business Case
 
 ### Problem statement
-Advice drop-in: Users are having problems with several factors in their personal lives such as finances, housing, welfare, debt etc.. They may need access to advice which can help them to dicuss and have access to options in order to overcome these dilemmas. This app aims to help users find the nearest advice drop in centre to them that accomodates for what specific advice they may need and see what kind of services are available to them.
+Advice drop-in: Users are having problems with several factors in their personal lives such as finances, housing, welfare, debt etc.. They may need access to advice which can help them to discuss and have access to options in order to overcome these dilemmas. This app aims to help users find the nearest advice drop-in centre to them that accommodates for what specific advice they may need and see what kind of services are available to them.
 
-Libraries: Users may want a place they can study, find books needed, carry out research but may not have facilities to do this using their own devices. They will want to find out a facility where they can do this. The app will allow a user to locate their nearest library and what features each library has, e.g. a quiet area, computer access, group pods. 
+
 
 
 ### Business benefits
 Advice drop in:
 - allows users to reach facilities that are accessible to them and can help them with their specific needs.
-
-Libraries:
-- gives students a place to study
-- allows people who may not have access to computers or books, a place to access this
   
 
 ### Options Considered
 TODO: What are some other customer options or leading products that address the same needs?
 
 Advice drop in 
-- Google Maps is already a service that can  direct a user to the facilities, it can give the ones located in the area and offer a live or satellite view
-- Drop in centre websites will already have an in-depth descriptions about the services they offer and who can access this
+- Google Maps is already a service that can  direct a user to the facilities, it can give the ones located in the area and offer a live or satellite view, however, it can overwhelm users with information. 
+- Drop-in centre websites will already have in-depth descriptions about the services they offer and who can access them which is more specific to a user's needs 
 
-Libraries
-- Google Maps is already a service that can  direct a user to the facilities, it can give the ones located in the area and offer a live or satellite view
-- Library websites will already have an in-depth descriptions about the services they offer and who can access this
+
 
 
 ### Expected Risks
