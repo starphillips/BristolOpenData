@@ -7,10 +7,13 @@ TODO: Write brief user stories to explain how various actors would interact with
     Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
 
 Advice drop in:
-As a 
+As an individual living in Bristol, in the living crisis, I want a single location where I can seek support and advice so that I can seek a solution in my time of needs. 
 
+As an individual struggling with debt, I want to be able to access a place of support so that I can seek solutions for my debt without stigma. 
 
+As an individual experiencing housing problems, I want to easily be able to access a centre where I can seek support so that I can discuss different solutions to this. 
 
+As 
 
 ### Actors
 TODO: List and describe the actors/users for this product.
