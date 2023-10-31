@@ -15,7 +15,7 @@ As a
 ### Actors
 TODO: List and describe the actors/users for this product.
 Advice drop in:
-- People who need advice, who live in Bristol, about what sort of facilities they need
+- 
 
 
 
