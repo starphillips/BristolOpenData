@@ -9,9 +9,10 @@ Advice drop-in: Users are having problems with several factors in their personal
 
 
 ### Business benefits
-Advice drop in:
 - allows users to reach facilities that are accessible to them and can help them with their specific needs.
 - makes the drop-in centres more accessible and easy as it is one place for users to seek this information.
+- utilising the services that are already offered
+- 
   
 
 ### Options Considered
