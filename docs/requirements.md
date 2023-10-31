@@ -10,10 +10,6 @@ Advice drop in:
 As a 
 
 
-Library:
-As a student, I want to see where the clostest libraries are to me so that I can study.
-As a 
-
 
 
 ### Actors
@@ -21,12 +17,7 @@ TODO: List and describe the actors/users for this product.
 Advice drop in:
 - People who need advice, who live in Bristol, about what sort of facilities they need
 
-  
-Libraries:
-- Students
-- People who dont have access to books, libraries
-- People who want to read books
-- People who want to find information
+
 
 ### Use Cases
 TODO: Describe each use case (at least one per team member).
