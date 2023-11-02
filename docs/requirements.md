@@ -6,21 +6,20 @@
 TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
     Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
 
-Advice drop in:
-As an individual living in Bristol, in the living crisis, I want a single location where I can seek support and advice so that I can seek a solution in my time of needs. 
+As an individual struggling with debt, I want a single location so that I can seek support for my debt without stigma. 
 
-As an individual struggling with debt, I want to be able to access a place of support so that I can seek solutions for my debt without stigma. 
+As an individual experiencing housing problems, I want to easily be able to locate a centre nearby so that I can discuss different solutions to this. 
 
-As an individual experiencing housing problems, I want to easily be able to access a centre where I can seek support so that I can discuss different solutions to this. 
+As a person seeking legal advice, I would like a guide on where I can locate a place of advice, so that I can make an informed decision moving forwards. 
 
-As 
+As a person living in Bristol during the cost of living crisis, I would like a place where I can seek advice for new ways to maximise my income, so that the impact the crisis has on my household is reduced.
 
 ### Actors
 TODO: List and describe the actors/users for this product.
-Advice drop in:
-- 
 
-
+- Advice Centre Employees 
+- Local Community of Bristol
+- Maintainers of the App
 
 ### Use Cases
 TODO: Describe each use case (at least one per team member).
