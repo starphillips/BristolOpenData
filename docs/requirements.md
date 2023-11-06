@@ -28,7 +28,7 @@ TODO: Describe each use case (at least one per team member).
 
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
+| **Description** |  Goal to be achieved by use case and sources for requirement |
 | **Actors** | TODO: List of actors involved in use case |
 | **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
 | **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
@@ -36,12 +36,12 @@ TODO: Describe each use case (at least one per team member).
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+| USE-CASE 2 | Identify Free Local Finacial Advice & Support | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
+| **Description** | To identify services required through the use of keywords and provide location.
+| **Actors** | Search keywords in 'Where To' to locate the required service and to be provided the geo-location or link to the location on the device software (e.g., Google maps or Apple maps).
+| **Assumptions** | The user enables the collection of cookies and shares geo-location. 
+| **Steps** | The User searches 'debt' on the app, and a list of local locations providing free financial advice will appear, the user selects the appropriate venue and the system provides the address and route to said location through the device software. 
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
