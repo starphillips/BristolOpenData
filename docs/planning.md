@@ -15,7 +15,6 @@ TODO: List high-level benefits that this product will provide.
 - Creates ease as the app will provide one place for users to seek where the centres are located and which ones can provide advice for their specific needs
 - Utilising the services that are already offered to people living in Bristol
 - Improve or contribute to quality of life for those who are not aware of their options via advice centres
-- 
   
 
 ### Options Considered
@@ -35,6 +34,11 @@ TODO: What are the main risks of this project?
 
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
+HTML / JavaScript Technology:
+- Load map
+- Make map interactable
+- Import data from https://opendata.bristol.gov.uk/search?q=advice%20drop%20in
+- 
 
 
 ![Insert your context diagram here](images/context.png)
