@@ -55,10 +55,15 @@ TODO: Your Use-Case diagram should include all use-cases.
 ### Functional requirements
 Functional Requirements:
 FR1.1 The system should get permission to access the user’s location.
+
 FR1.2 The system should query the database for advice drop-in centres from Open Data Bristol
+
 FR1.3 The system should centre the map on the user’s location using the map object.
+
 FR1.4 The system should add markers for each advice centre on the map
+
 FR1.5 The system should allow users to click on which centre they would like to seek directions to
+
 FR1.6 The system should 
 
 
