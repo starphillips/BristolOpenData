@@ -41,7 +41,7 @@ TODO: Describe each use case (at least one per team member).
 | **Description** | To identify services required through the use of keywords and provide location.
 | **Actors** | Search keywords in 'Where To' to locate the required service and to be provided the geo-location or link to the location on the device software (e.g., Google maps or Apple maps).
 | **Assumptions** | The user enables the collection of cookies and shares geo-location. 
-| **Steps** | The User searches 'debt' on the app <o1><li> Search Keyword </li>, and a list of local locations providing free financial advice will appear, the user selects the appropriate venue and the system provides the address and route to said location through the device software. 
+| **Steps** | <ol><li> Search Keyword - e.g., Debt</li><li> Give Permission to use my location</li><li> Centre map on user</li><li> add markers for locations in proximity to user</li><li> Generate route to selected location using local software</li>
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
