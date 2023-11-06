@@ -54,6 +54,7 @@ TODO: Your Use-Case diagram should include all use-cases.
 ## Software Requirements Specification
 ### Functional requirements
 Functional Requirements:
+
 FR1.1 The system should get permission to access the user’s location.
 
 FR1.2 The system should query the database for advice drop-in centres from Open Data Bristol
