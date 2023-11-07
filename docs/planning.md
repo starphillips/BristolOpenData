@@ -42,8 +42,9 @@ HTML / JavaScript Technology:
 Technology Needed:
 - Permission to track the user's current location and locate the nearest centre to them
 - Search Bar that allows users to search for desired advice type
-- Filter for the table to sort the various centres a user could visit
 - Device should be connected to the Internet (Wi-Fi or mobile data)
+- OPTIONAL: Filter for the table to sort the various centres a user could visit
+
 
 Users:
 - People living in Bristol who may want to seek support
