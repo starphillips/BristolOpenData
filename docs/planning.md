@@ -35,10 +35,20 @@ TODO: What are the main risks of this project?
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
 HTML / JavaScript Technology:
-- Load map
-- Make map interactable
+- Load map on the webpage
+- Make the map interactable for users to zoom and move around
 - Import data from https://opendata.bristol.gov.uk/search?q=advice%20drop%20in
-- 
+- Load table form of data that holds information about the advice centres (addresses, advice type, opening times, name)
+
+Technology Needed:
+- Permission to track the user's current location
+- Device should be connected to the Internet (Wi-Fi or mobile data)
+
+Clients:
+- People living in Bristol who may want to seek support
+- People living in Bristol who would like to learn more about the options available to their circumstances
+
+  
 
 
 ![Insert your context diagram here](images/context.png)
