@@ -31,8 +31,6 @@ It is significant to outline the risks that may be encountered during the planni
 - User confusion, they may not understand what the app can be used for 
 
 ## Project Scope
-TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
-
 HTML / JavaScript Technology:
 - Load map on the webpage
 - Make the map interactable for users to zoom and move around
