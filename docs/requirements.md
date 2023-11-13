@@ -65,7 +65,9 @@ FR1.4 The system should add markers for each advice centre on the map
 
 FR1.5 The system should allow users to click on which centre they would like to seek directions to
 
-FR1.6 The system should 
+FR1.6 The system should allow the user to select their method of travel e.g. by car, walking
+
+FR1.7 The system should generate an optimal route that the user can follow to reach the advice centre based on selected method of travel
 
 
 ### Non-Functional Requirements
