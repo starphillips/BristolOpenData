@@ -28,11 +28,11 @@ TODO: Describe each use case (at least one per team member).
 
 | USE-CASE 1 | Ensuring the correct and updated information is available on the app| 
 | -------------------------------------- | ------------------- |
-| **Description** |  As an employee of an advice centre, I want to ensure that the correct information about the centre is displayed on the app, so that the local community understand the services we can provide for them. |
+| **Description** |  As an employee of an advice centre, I want to ensure that the correct information about the centre is displayed on the app, so that the local community understands the services available them. |
 | **Actors** | Advice centre employee |
-| **Assumptions** | <ol> <li> The app has a table displaying each advice centre's name, address, opening times and types of advice. </li> <li>There is a search bar for users to search centre names</li></ol> </td></tr>
-| **Steps** | <ol> <li> App will open on map, in which the user must click on the table tab to display the centres within a list </li> <li> Scroll and identify the advice centre's name </li> <li> Search for advice centre name </li> |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Assumptions** | <ul> <li> The app has a table displaying each advice centre's name, address, opening times and types of advice. </li> <li>There is a search bar for users to search centre names</li> <li> There are filters available for the user to narrow down the table based on information about the centres e.g. advice centres for debt </li> </ul> </td></tr>
+| **Steps** | <ol> <li> App will open on map, in which the user must click on the table tab to display the centres within a list </li> <li> Scroll and identify the advice centre's name </li> <li> Check that all information about the advice centre is correct based on the information they know as an employee of the centre <li> <li> Get in contact with app maintainer if information is not updated or incorrect </li> </ol> |
+| **Variations** | <ul> <li> If the user is able to locate the centre based on a full list, the search bar is available for the user to search for advice centre by name </li> <li> The user is able to user filters to narrow down the list based on certain features of a centre <li> </ul>|
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
