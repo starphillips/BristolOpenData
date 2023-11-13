@@ -3,9 +3,6 @@
 ## User Needs
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
-
 As an individual struggling with debt, I want a single location so that I can seek support for my debt without stigma. 
 
 As an individual experiencing housing problems, I want to easily be able to locate a centre nearby so that I can discuss different solutions to this. 
