@@ -23,7 +23,7 @@ TODO: Describe each use case (at least one per team member).
     Give each use case a unique ID, e.g. UC1, UC2, ...
     Summarise these using the use-case template below.
 
-| USE-CASE 1 | Ensuring the correct and updated information is available on the app| 
+| USE-CASE 1 | Ensuring the correct and updated information is available on the app | 
 | -------------------------------------- | ------------------- |
 | **Description** |  As an employee of an advice centre, I want to ensure that the correct information about the centre is displayed on the app, so that the local community understands the services available them. |
 | **Actors** | Advice centre employee |
@@ -70,5 +70,9 @@ FR1.7 The system should generate an optimal route that the user can follow to re
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
+
+NFR1.1: The app should work on Android devices 
+NFR1.2: The app should display the advice centres that specialises in the user's chosen advice type.
+NFR1.3: The app must assume a sensible default location when geolocation is not available for a user (e.g. centre of Bristol) 
 
 Indicate which UC the requirement comes from.
