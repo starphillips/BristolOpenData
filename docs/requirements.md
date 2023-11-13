@@ -72,7 +72,9 @@ TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/IS
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
 NFR1.1: The app should work on Android devices 
+
 NFR1.2: The app should display the advice centres that specialises in the user's chosen advice type.
+
 NFR1.3: The app must assume a sensible default location when geolocation is not available for a user (e.g. centre of Bristol) 
 
 Indicate which UC the requirement comes from.
