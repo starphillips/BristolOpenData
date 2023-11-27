@@ -23,14 +23,14 @@ TODO: Describe each use case (at least one per team member).
     Give each use case a unique ID, e.g. UC1, UC2, ...
     Summarise these using the use-case template below.
 
-| USE-CASE 1 | Ensuring the correct and updated information is available on the app | 
+| USE-CASE 1 | Checking the correct and updated information is available on the app and informing of any changes| 
 | -------------------------------------- | ------------------- |
 | **Description** |  As an employee of an advice centre, I want to ensure that the correct information about the centre is displayed on the app, so that the local community understands the services available them. |
 | **Actors** | Advice centre employee |
 | **Assumptions** | <ul> <li> The app has a table displaying each advice centre's name, address, opening times and types of advice. </li> <li>There is a search bar for users to search centre names</li> <li> There are filters available for the user to narrow down the table based on information about the centres e.g. what centres specialise in financial advice </li> </ul> </td></tr>
 | **Steps** | <ol> <li> App will open on map, in which the user must click on the table tab to display the centres within a list </li> <li> Scroll and identify the advice centre's name </li> <li> Check that all information about the advice centre is correct based on the information they know as an employee of the centre </li> <li> Get in contact with app maintainer if information is not updated or incorrect </li> </ol> |
 | **Variations** | <ul> <li> If the user is able to locate the centre based on a full list, the search bar is available for the user to search for advice centre by name </li> <li> The user is able to user filters to narrow down the list based on certain features of a centre </li> </ul>|
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Non-functional** | The app should work on Android devices |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 | USE-CASE 2 | Identify Free Local Finacial Advice & Support | 
@@ -40,7 +40,7 @@ TODO: Describe each use case (at least one per team member).
 | **Assumptions** | The user enables the collection of cookies and shares geo-location. 
 | **Steps** | <ol><li> Search Keyword - e.g., Debt</li><li> Give Permission to use my location</li><li> Centre map on user</li><li> add markers for locations in proximity to user</li><li> Generate route to selected location using local software</li>
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Non-functional** | <ol> <li>The app should work on Android devices</li> <li>The app should display the advice centres that specialises in the user's chosen advice type.</li> <li>The system should allow the user to select their method of travel e.g. by car, walking</li> <li>The system should generate an optimal route that the user can follow to reach the advice centre based on the user's selected method of travel</li> <ol>|
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
