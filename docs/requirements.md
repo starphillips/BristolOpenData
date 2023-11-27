@@ -3,11 +3,11 @@
 ## User Needs
 
 ### User stories
-As an individual struggling with debt, I want a single location so that I can seek support for my debt without stigma. 
+As an individual struggling with debt, I want a single place so that I can seek support for my debt without stigma. 
 
 As an individual experiencing housing problems, I want to easily be able to locate a centre nearby so that I can discuss different solutions to this. 
 
-As a person seeking legal advice, I would like a guide on where I can locate a place of advice, so that I can make an informed decision moving forwards. 
+As a person seeking legal advice, I would like a place on where I can locate a place of advice, so that I can make an informed decision moving forwards. 
 
 As a person living in Bristol during the cost of living crisis, I would like a place where I can seek advice for new ways to maximise my income, so that the impact the crisis has on my household is reduced.
 
@@ -35,17 +35,17 @@ TODO: Describe each use case (at least one per team member).
 
 | USE-CASE 2 | Identify Free Local Finacial Advice & Support | 
 | -------------------------------------- | ------------------- |
-| **Description** | To identify services required through the use of keywords and provide location.
-| **Actors** | Search keywords in 'Where To' to locate the required service and to be provided the geo-location or link to the location on the device software (e.g., Google maps or Apple maps).
+| **Description** | As an individual struggling with debt, I want a single place so that I can seek support for my debt without stigma. 
+| **Actors** | Local Community of Bristol
 | **Assumptions** | The user enables the collection of cookies and shares geo-location. 
-| **Steps** | <ol><li> Search Keyword - e.g., Debt</li><li> Give Permission to use my location</li><li> Centre map on user</li><li> add markers for locations in proximity to user</li><li> Generate route to selected location using local software</li>
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Steps** | <ol><li> Search Keyword - e.g., Debt</li><li> Give Permission to use my location</li> <li> Centre map on user</li> <li> Add markers for locations in proximity to user in relation to the advice type they've selected</li> <li> Generate route to selected location using local software</li> </ol>
+| **Variations** | User may not specify advice type and so all centres within proximity should be displayed. |
 | **Non-functional** | <ul> <li>The app should work on Android devices</li> <li>The app should display the advice centres that specialises in the user's chosen advice type.</li> <li>The system should allow the user to select their method of travel e.g. by car, walking</li> <li>The system should generate an optimal route that the user can follow to reach the advice centre based on the user's selected method of travel</li> </ul>|
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 | USE-CASE 3 | Keeping information up-to-date and updating if there are any changes | 
 | -------------------------------------- | ------------------- |
-| **Description** | As the app operator, I want to ensure that if any changes are made to the advice centre information, I update the app accordingly to ensure that users will have the correct up-to-date information. 
+| **Description** | As the app operator, I want to ensure that if any changes are made to the advice centre information, I will update the app accordingly to ensure that users will have the correct up-to-date information. 
 | **Actors** | App Operator
 | **Assumptions** | An advice centre employee will inform the app operator if there are any changes to be made.
 | **Steps** | <ol><li> App operator is informed of any updates e.g. change of opening times</li> <li>Updates to information is made accordingly</li>
