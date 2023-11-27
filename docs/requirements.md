@@ -40,7 +40,7 @@ TODO: Describe each use case (at least one per team member).
 | **Assumptions** | The user enables the collection of cookies and shares geo-location. 
 | **Steps** | <ol><li> Search Keyword - e.g., Debt</li><li> Give Permission to use my location</li><li> Centre map on user</li><li> add markers for locations in proximity to user</li><li> Generate route to selected location using local software</li>
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | <ul> <li>The app should work on Android devices</li> <li>The app should display the advice centres that specialises in the user's chosen advice type.</li> <li>The system should allow the user to select their method of travel e.g. by car, walking</li> <li>The system should generate an optimal route that the user can follow to reach the advice centre based on the user's selected method of travel</li> <ul>|
+| **Non-functional** | <ul> <li>The app should work on Android devices</li> <li>The app should display the advice centres that specialises in the user's chosen advice type.</li> <li>The system should allow the user to select their method of travel e.g. by car, walking</li> <li>The system should generate an optimal route that the user can follow to reach the advice centre based on the user's selected method of travel</li> </ul>|
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
