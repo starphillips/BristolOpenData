@@ -43,6 +43,15 @@ TODO: Describe each use case (at least one per team member).
 | **Non-functional** | <ul> <li>The app should work on Android devices</li> <li>The app should display the advice centres that specialises in the user's chosen advice type.</li> <li>The system should allow the user to select their method of travel e.g. by car, walking</li> <li>The system should generate an optimal route that the user can follow to reach the advice centre based on the user's selected method of travel</li> </ul>|
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
+| USE-CASE 3 | Keeping information up-to-date and updating if there are any changes | 
+| -------------------------------------- | ------------------- |
+| **Description** | As the app operator, I want to ensure that if any changes are made to the advice centre information, I update the app accordingly to ensure that users will have the correct up-to-date information. 
+| **Actors** | App Operator
+| **Assumptions** | An advice centre employee will inform the app operator if there are any changes to be made.
+| **Steps** | <ol><li> App operator is informed of any updates e.g. change of opening times</li> <li>Updates to information is made accordingly</li>
+| **Variations** | The app operator may want to make their own changes to the app based on their knowledge or update features. |
+| **Non-functional** | <ul> <li>The app should work on Android devices</li> </ul>|
+| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 TODO: Your Use-Case diagram should include all use-cases.
 
