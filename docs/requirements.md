@@ -50,7 +50,7 @@ TODO: List and describe the actors/users for this product.
 | **Non-functional** | <ul> <li>The app should work on Android devices</li> </ul>|
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-## Use Case Diagram
+### Use Case Diagram
 ![Insert your Use-Case Diagram Here](images/use-case.png)
 
 ## Software Requirements Specification
