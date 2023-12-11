@@ -15,7 +15,7 @@ As a person living in Bristol during the cost of living crisis, I would like a p
 TODO: List and describe the actors/users for this product.
 
 - Advice Centre Employees 
-- Local Community of Bristol
+- Person in Bristol seeking advice
 - Maintainers of the App
 
 ### Use Cases
@@ -36,7 +36,7 @@ TODO: Describe each use case (at least one per team member).
 | USE-CASE 2 | Identify Free Local Finacial Advice & Support | 
 | -------------------------------------- | ------------------- |
 | **Description** | As an individual struggling with debt, I want a single place so that I can seek support for my debt without stigma. 
-| **Actors** | Local Community of Bristol
+| **Actors** | Person in Bristol seeking advice
 | **Assumptions** | The user enables the collection of cookies and shares geo-location. 
 | **Steps** | <ol><li> Search Keyword - e.g., Debt</li><li> Give Permission to use my location</li> <li> Centre map on user</li> <li> Add markers for locations in proximity to user in relation to the advice type they've selected</li> <li> Generate route to selected location using local software</li> </ol>
 | **Variations** | User may not specify advice type and so all centres within proximity should be displayed. |
