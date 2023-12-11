@@ -19,9 +19,6 @@ TODO: List and describe the actors/users for this product.
 - Maintainers of the App
 
 ### Use Cases
-TODO: Describe each use case (at least one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
 
 | USE-CASE 1 | Checking the correct and updated information is available on the app and informing of any changes| 
 | -------------------------------------- | ------------------- |
@@ -53,8 +50,7 @@ TODO: Describe each use case (at least one per team member).
 | **Non-functional** | <ul> <li>The app should work on Android devices</li> </ul>|
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-TODO: Your Use-Case diagram should include all use-cases.
-
+##Use Case Diagram
 ![Insert your Use-Case Diagram Here](images/use-case.png)
 
 ## Software Requirements Specification
