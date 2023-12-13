@@ -85,14 +85,14 @@ FR6.1 - The system should enable users to interact with advice drop-in session m
 <br>FR6.2 - Users should be able to save or bookmark sessions for future reference.
 
 <H5>FR7: Accessibility </H5>
-FR7.1: The app should be designed with accessibility features, ensuring usability for individuals with diverse needs.
+FR7.1 - The app should be designed with accessibility features, ensuring usability for individuals with diverse needs.
 
 <H5>FR8: Notifications </H5>
-FR8.1: Users should receive notifications about upcoming advice drop-in sessions based on their preferences.
+FR8.1 - Users should receive notifications about upcoming advice drop-in sessions based on their preferences.
 
 <H5>FR9: Offline Functionality</H5>
-FR9.1: The app should store essential information locally for offline access.
-<br>F9.2: Users should be able to access previously viewed information even without an internet connection.
+FR9.1 - The app should store essential information locally for offline access.
+<br>F9.2 - Users should be able to access previously viewed information even without an internet connection.
 
 
 
