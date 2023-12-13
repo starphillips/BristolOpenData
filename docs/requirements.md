@@ -97,11 +97,11 @@ FR9.1 - The app should store essential information locally for offline access.
 
 
 ### Non-Functional Requirements
-
+<H5> Performance</H5>
 NFR1.1: The app should respond promptly and efficiently, ensuring quick access to information about advice drop-in sessions.
-
+<H5> Scalability</H5>
 NFR1.2: The application should be designed to handle potential growth in data and user base without compromising performance.
-
+<H5> Reliability</H5>
 NFR1.3: The app must reliably provide accurate information about the locations and details of advice drop-in sessions without errors or inconsistencies.
 
 NFR1.4: The user data, susceptible information related to legal matters and immigration, should be securely stored and transmitted to maintain user confidentiality and strictly adhere to data protection laws and regulations to safeguard users' privacy and their information.
