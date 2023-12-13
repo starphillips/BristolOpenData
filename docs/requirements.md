@@ -3,20 +3,22 @@
 ## User Needs
 
 ### User stories
-As an individual struggling with debt, I want a single place so that I can seek support for my debt without stigma. 
+As someone facing financial challenges with debt, I desire a centralized platform where I can seek assistance for my financial struggles without experiencing any judgment or stigma. 
 
-As an individual experiencing housing problems, I want to easily be able to locate a centre nearby so that I can discuss different solutions to this. 
+As an individual facing housing challenges, I wish to use the app to easily discover a nearby centre, enabling me to explore diverse solutions and participate in discussions concerning my housing issues.
 
-As a person seeking legal advice, I would like a place on where I can locate a place of advice, so that I can make an informed decision moving forwards. 
 
-As a person living in Bristol during the cost of living crisis, I would like a place where I can seek advice for new ways to maximise my income, so that the impact the crisis has on my household is reduced.
+As an individual in need of legal advice, I desire a platform where I can find a designated advice centre, empowering me to make informed decisions for my future.
+
+
+As a Bristol resident navigating the challenges of the cost of living crisis, I seek a platform where I can access advice on innovative ways to boost my income. My goal is to mitigate the impact of the crisis on my household.
 
 ### Actors
-TODO: List and describe the actors/users for this product.
+Actors that appear in the following use-case are as follows:
 
-- Advice Centre Employees 
-- Person in Bristol seeking advice
-- Maintainers of the App
+- Employees of Advice Centers can utilize it to provide personalized guidance tailored to individuals, ensuring a more comprehensive and well-rounded service.
+- An individual in Bristol actively seeking advice and proactively pursuing information.
+- The developers of the application, along with the application maintenance team.
 
 ### Use Cases
 
