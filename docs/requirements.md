@@ -3,7 +3,7 @@
 ## User Needs
 
 ### User stories
-As someone facing financial challenges with debt, I desire a centralized platform where I can seek assistance for my financial struggles without experiencing any judgment or stigma. 
+As someone facing financial challenges with debt, I desire a centralised platform where I can seek assistance for my financial struggles without experiencing any judgment or stigma. 
 
 As an individual facing housing challenges, I wish to use the app to easily discover a nearby centre, enabling me to explore diverse solutions and participate in discussions concerning my housing issues.
 
@@ -16,7 +16,7 @@ As a Bristol resident navigating the challenges of the cost of living crisis, I 
 ### Actors
 Actors that appear in the following use-case are as follows:
 
-- Employees of Advice Centers can utilize it to provide personalized guidance tailored to individuals, ensuring a more comprehensive and well-rounded service.
+- Employees of Advice Centers can utilise it to provide personalised guidance tailored to individuals, ensuring a more comprehensive and well-rounded service.
 - An individual in Bristol actively seeking advice and proactively pursuing information.
 - The developers of the application, along with the application maintenance team.
 
@@ -60,7 +60,7 @@ Actors that appear in the following use-case are as follows:
 ### Functional requirements
 <H5> FR1: User Authentication and Profile Management </H5>
 FR1.1 - Users should be able to create accounts with unique usernames and passwords.
-<br>FR1.2 - The system should allow users to log in securely to access personalized features.
+<br>FR1.2 - The system should allow users to log in securely to access personalised features.
 
 <H5>FR2: Location Services </H5>
 FR2.1 - The app should request and obtain permission to access the user's location.
