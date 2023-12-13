@@ -31,20 +31,20 @@ It is significant to outline the risks that may be encountered during the planni
 - User confusion, they may not understand what the app can be used for 
 
 ## Project Scope
-HTML / JavaScript Technology:
+<h5>HTML / JavaScript Technology:</h5>
 - Load map on the webpage
 - Make the map interactable for users to zoom and move around
 - Import data from https://opendata.bristol.gov.uk/search?q=advice%20drop%20in
 - Load table form of data that holds information about the advice centres (addresses, advice type, opening times, name)
 
-Technology Needed:
+<H5>Technology Needed:</H5>
 - Permission to track the user's current location and locate the nearest centre to them
 - Search Bar that allows users to search for desired advice type
 - Device should be connected to the Internet (Wi-Fi or mobile data)
 - OPTIONAL: Filter for the table to sort the various centres a user could visit
 
 
-Users:
+<H5>Users:</H5>
 - People living in Bristol who may want to seek support
 - People living in Bristol who would like to learn more about the options available to their circumstances
 
