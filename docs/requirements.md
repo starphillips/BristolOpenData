@@ -57,17 +57,53 @@ Actors that appear in the following use-case are as follows:
 
 ## Software Requirements Specification
 ### Functional requirements
-Functional Requirements:
 
-FR1.1 The system should get permission to access the user’s location.
+FR1: User Authentication and Profile Management
+FR1.1 - Users should be able to create accounts with unique usernames and passwords.
+FR1.2 - The system should allow users to log in securely to access personalized features.
 
-FR1.2 The system should query the database for advice on drop-in centres from Open Data Bristol
 
-FR1.3 The system should centre the map on the user’s location using the map object.
+FR2: Location Services
+FR2.1 - The app should request and obtain permission to access the user's location.
+FR2.2 - Users should have the option to manually input their location.
 
-FR1.4 The system should add markers for each advice centre on the map
 
-FR1.5 The system should allow users to click on which centre they would like to seek directions to
+FR3: Data Retrieval and Integration
+FR3.1 - The app should integrate with Open Data Bristol's dataset to retrieve information about advice drop-in sessions.
+FR3.2 - Information about debt, energy, benefits, welfare, housing, legal matters, and immigration should be accurately represented. 
+FR3.3 - Users should be able to access detailed information about each advice drop-in session, including the type of advice offered, session timings, and contact details.
+
+
+FR4: Mapping and Navigation
+FR4.1 - The app should display a map centred on the user's location.
+FR4.2 - Advice drop-in sessions should be visually marked on the map.
+FR4.3 - Users should be able to select a specific advice session on the map and receive directions to it.
+
+
+FR5: Filtering and Sorting
+FR5.1 - Users should be able to filter advice sessions based on categories such as debt, energy, benefits, welfare, housing, legal matters, and immigration.
+FR5.2 - The system should allow the sorting of advice sessions based on proximity or relevance to the user's needs.
+
+
+FR6: User Interaction
+FR6.1 - The system should enable users to interact with advice drop-in session markers on the map to get more information.
+FR6.2 - Users should be able to save or bookmark sessions for future reference.
+
+
+FR7: Accessibility
+FR7.1: The app should be designed with accessibility features, ensuring usability for individuals with diverse needs.
+
+
+FR8: Notifications
+FR8.1: Users should receive notifications about upcoming advice drop-in sessions based on their preferences.
+
+
+FR9: Offline Functionality
+FR9.1: The app should store essential information locally for offline access.
+F9.2: Users should be able to access previously viewed information even without an internet connection.
+
+
+
 
 
 ### Non-Functional Requirements
