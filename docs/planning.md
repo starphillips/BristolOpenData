@@ -32,9 +32,9 @@ It is significant to outline the risks that may be encountered during the planni
 
 ## Project Scope
 <h5>HTML / JavaScript Technology:</h5>
-- Load map on the webpage
-- Make the map interactable for users to zoom and move around
-- Import data from https://opendata.bristol.gov.uk/search?q=advice%20drop%20in
+- Load map on the webpage <BR>
+- Make the map interactable for users to zoom and move around<BR>
+- Import data from https://opendata.bristol.gov.uk/search?q=advice%20drop%20in<BR>
 - Load table form of data that holds information about the advice centres (addresses, advice type, opening times, name)
 
 <H5>Technology Needed:</H5>
