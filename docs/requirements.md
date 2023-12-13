@@ -58,9 +58,9 @@ Actors that appear in the following use-case are as follows:
 ## Software Requirements Specification
 ### Functional requirements
 
-<br>FR1: User Authentication and Profile Management<br>
-<br>FR1.1 - Users should be able to create accounts with unique usernames and passwords.<br>
-<br>FR1.2 - The system should allow users to log in securely to access personalized features.<br>
+<be><H3> FR1: User Authentication and Profile Management </H3><br>
+<br>FR1.1 - Users should be able to create accounts with unique usernames and passwords.
+<br>FR1.2 - The system should allow users to log in securely to access personalized features.
 
 
 <br>FR2: Location Services<br>
