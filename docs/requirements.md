@@ -98,22 +98,22 @@ FR9.1 - The app should store essential information locally for offline access.
 
 ### Non-Functional Requirements
 <H5> Performance</H5>
-NFR1.1: The app should respond promptly and efficiently, ensuring quick access to information about advice drop-in sessions.
+NFR1.1 - The app should respond promptly and efficiently, ensuring quick access to information about advice drop-in sessions.
 <H5> Scalability</H5>
-NFR1.2: The application should be designed to handle potential growth in data and user base without compromising performance.
+NFR1.2 - The application should be designed to handle potential growth in data and user base without compromising performance.
 <H5> Reliability</H5>
-NFR1.3: The app must reliably provide accurate information about the locations and details of advice drop-in sessions without errors or inconsistencies.
-
-NFR1.4: The user data, susceptible information related to legal matters and immigration, should be securely stored and transmitted to maintain user confidentiality and strictly adhere to data protection laws and regulations to safeguard users' privacy and their information.
-
-NFR1.5: The user interface should be intuitive and user-friendly, allowing individuals to navigate and find relevant information without confusion.
-
-NFR1.6: The app should be designed to accommodate users with various abilities, ensuring it is accessible to a diverse range of individuals.
-
-NFR1.7: The application should be compatible with different devices and operating systems to maximise user accessibility.
-
-NFR1.8: The app should be available and accessible to users at all times, with minimal downtime for maintenance or updates.
-
-NFR1.9: Implement tools for monitoring the app's performance to identify and address any issues promptly.
-
-NFR1.10: The app should seamlessly integrate with other relevant systems or platforms to enhance its overall functionality and utility.
+NFR1.3 - The app must reliably provide accurate information about the locations and details of advice drop-in sessions without errors or inconsistencies.
+<H5> Security</H5>
+NFR1.4 - The user data, susceptible information related to legal matters and immigration, should be securely stored and transmitted to maintain user confidentiality and strictly adhere to data protection laws and regulations to safeguard users' privacy and their information.
+<H5>Usability</H5>
+NFR1.5 - The user interface should be intuitive and user-friendly, allowing individuals to navigate and find relevant information without confusion.
+<H5> Accessibility</H5>
+NFR1.6 - The app should be designed to accommodate users with various abilities, ensuring it is accessible to a diverse range of individuals.
+<H5> Compatibility</H5>
+NFR1.7 - The application should be compatible with different devices and operating systems to maximise user accessibility.
+<H5> Availability </H5>
+NFR1.8 - The app should be available and accessible to users at all times, with minimal downtime for maintenance or updates.
+<H5>Performance Monitoring</H5>
+NFR1.9 - Implement tools for monitoring the app's performance to identify and address any issues promptly.
+<H5>Interoperability</H5>
+NFR1.10 - The app should seamlessly integrate with other relevant systems or platforms to enhance its overall functionality and utility.
