@@ -58,14 +58,14 @@ Actors that appear in the following use-case are as follows:
 ## Software Requirements Specification
 ### Functional requirements
 
-FR1: User Authentication and Profile Management
-FR1.1 - Users should be able to create accounts with unique usernames and passwords.
-FR1.2 - The system should allow users to log in securely to access personalized features.
+<br>FR1: User Authentication and Profile Management<br>
+<br>FR1.1 - Users should be able to create accounts with unique usernames and passwords.<br>
+<br>FR1.2 - The system should allow users to log in securely to access personalized features.<br>
 
 
-FR2: Location Services
-FR2.1 - The app should request and obtain permission to access the user's location.
-FR2.2 - Users should have the option to manually input their location.
+<br>FR2: Location Services<br>
+<br>FR2.1 - The app should request and obtain permission to access the user's location.<br>
+<br>FR2.2 - Users should have the option to manually input their location.<br>
 
 
 FR3: Data Retrieval and Integration
