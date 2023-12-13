@@ -38,14 +38,14 @@ It is significant to outline the risks that may be encountered during the planni
 - Load table form of data that holds information about the advice centres (addresses, advice type, opening times, name)
 
 <H5>Technology Needed:</H5>
-- Permission to track the user's current location and locate the nearest centre to them
-- Search Bar that allows users to search for desired advice type
-- Device should be connected to the Internet (Wi-Fi or mobile data)
+- Permission to track the user's current location and locate the nearest centre to them<BR>
+- Search Bar that allows users to search for desired advice type<BR>
+- Device should be connected to the Internet (Wi-Fi or mobile data)<BR>
 - OPTIONAL: Filter for the table to sort the various centres a user could visit
 
 
 <H5>Users:</H5>
-- People living in Bristol who may want to seek support
+- People living in Bristol who may want to seek support<BR>
 - People living in Bristol who would like to learn more about the options available to their circumstances
 
   
