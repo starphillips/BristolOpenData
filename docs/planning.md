@@ -7,12 +7,12 @@ The 'Where To' project aims to make advice drop-in centres more utilised in Bris
 
 
 ### Business benefits
-After having identified the problem, we have reflected this on what benefits our app could create, and how we can overcome the problem statement. This is crucial as we would like to create an app that can benefit the local community, whether it's the people who have access to the centres or the resources that are not being used to their full potential. Business benefits can identify what the user can do with our app. 
+After recognizing the challenge, we have thoroughly contemplated the positive results our app could generate and its efficacy in resolving the identified issue. This is crucial, given our objective to create an app that provides tangible advantages to the local community. Whether it involves streamlining access to advice centers for individuals or maximizing the use of existing resources, our focus is on developing a solution that contributes meaningfully. Evaluating the business benefits is imperative, as it aids in outlining the concrete advantages users can derive from engaging with our app.
 
-- Allows users to locate and have directions to their needed facilities
-- Creates ease as the app will provide one place for users to seek where the centres are located and which ones can provide advice for their specific needs
-- Utilising the services that are already offered to people living in Bristol
-- Improve or contribute to quality of life for those who are not aware of their options via advice centres
+- Empowers users to find and receive directions to the facilities they require.
+- Enhances convenience by consolidating information in one app, enabling users to easily discover the locations of advice centers that cater to their specific needs.
+- Optimizes the utilization of existing services available to Bristol residents.
+- Enhances or contributes to the quality of life for individuals who may be unaware of their options through advice centers.
   
 
 ### Options Considered
