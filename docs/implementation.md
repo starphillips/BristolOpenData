@@ -36,8 +36,30 @@ The major components of the software architecture are listed below:
   <li> Developer Productivity: JavaScript frameworks streamline the development process by providing tools, utilities, and conventions that boost developer productivity. Features like hot module replacement (HMR), code splitting, and scaffolding tools enable rapid prototyping, iteration, and deployment of applications. </li>
 
 <h3> <b>Server-side Components</b> </h3>
-     <p> </p> 
-  
+     <p> Web servers, application servers, and proxy servers play critical roles in the architecture of web applications.
+
+Web servers are responsible for hosting and delivering web applications to clients, handling requests, delivering content, executing application logic, ensuring security, facilitating scalability, maintaining compatibility, and providing monitoring capabilities.
+
+Application servers serve as the backbone of the backend architecture, executing business logic, generating dynamic content, interacting with external services, managing sessions, ensuring scalability and concurrency, integrating with frameworks and middleware, and enforcing security measures.
+
+Proxy servers act as intermediaries between clients and backend servers, enhancing security, performance, scalability, and manageability. They handle request routing, authentication, caching, rate limiting, load balancing, content transformation, and monitoring/logging, contributing to the overall efficiency and reliability of web applications.</p> 
+
+<h5> Web Server </h5>
+<p>The web server hosts the backend application code and serves web pages to clients upon request for several reasons: </p>
+
+<li> Request Handling: A web server efficiently handles incoming HTTP requests from clients (web browsers) and processes them according to the logic defined in the backend application code. </li>
+
+<li> Content Delivery: The web server delivers static content (such as HTML, CSS, and JavaScript files) directly to clients without processing. This ensures fast and efficient content delivery, reducing latency and improving the overall user experience.</li>
+
+<li> Application Logic Execution: The web server executes the backend application code, which may involve querying databases, processing data, generating dynamic content, and performing other business logic tasks. </li>
+
+<li> Routing and URL Mapping: Web servers implement routing and URL mapping mechanisms to determine how incoming requests are mapped to specific endpoints or resources within the backend application. </li>
+
+<li> Security: Web servers often include built-in security features and mechanisms to protect against common threats, such as denial-of-service (DoS) attacks, cross-site scripting (XSS), and SQL injection. They may also support SSL/TLS encryption for secure communication between clients and the server.</li>
+
+<li> Scalability: Web servers are designed to handle a large volume of concurrent connections and scale horizontally to accommodate increasing traffic and workload demands. They can distribute incoming requests across multiple server instances or nodes for improved performance and reliability.</li>
+
+<li> Logging and Monitoring: Web servers typically provide logging and monitoring capabilities to track server performance, request metrics, error logs, and other relevant data. This information helps administrators diagnose issues, optimize performance, and ensure the reliability of the server infrastructure.</li>  
   </body>
 </html>
 
