@@ -34,6 +34,9 @@ The major components of the software architecture are listed below:
   <li> Cross-Platform Compatibility: JavaScript frameworks enable developers to build cross-platform applications that run seamlessly on different devices and browsers. By leveraging web standards and modern browser APIs, client-side scripting frameworks ensure compatibility and consistency across platforms, including desktops, tablets, and mobile devices.</li>
   <li> Rich UI Components: Frameworks like React.js, Vue.js, and Angular.js offer extensive libraries of UI components and plugins that developers can use to enhance the visual appearance and functionality of their applications. These pre-built components save development time and effort, allowing developers to focus on building unique features and solving specific business challenges. </li>
   <li> Developer Productivity: JavaScript frameworks streamline the development process by providing tools, utilities, and conventions that boost developer productivity. Features like hot module replacement (HMR), code splitting, and scaffolding tools enable rapid prototyping, iteration, and deployment of applications. </li>
+
+<h3> <b>Server-side Components</b> </h3>
+     <p> </p> 
   
   </body>
 </html>
