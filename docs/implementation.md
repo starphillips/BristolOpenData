@@ -8,11 +8,13 @@ TODO: Provide an outline of the project folder structure and the role of each fi
 provide a table listing the number of jslint warnings/reports for each module.
 
 ## Software Architecture
-The major components of the software architecture is listed below:
+The major components of the software architecture are listed below:
 
 <html>
   <body>
-    <h2>  </h2>
+    <h2> <b>Client-side Components</b> </h2>
+    <h5> User Interface (UI) </h5>
+    
   </body>
 </html>
 
