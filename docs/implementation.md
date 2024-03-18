@@ -44,7 +44,7 @@ Application servers serve as the backbone of the backend architecture, executing
 
 Proxy servers act as intermediaries between clients and backend servers, enhancing security, performance, scalability, and manageability. They handle request routing, authentication, caching, rate limiting, load balancing, content transformation, and monitoring/logging, contributing to the overall efficiency and reliability of web applications.</p> 
 
-<h3> Web Server </h3>
+<h3>Web Server</h3>
 <p>The web server hosts the backend application code and serves web pages to clients upon request for several reasons: </p>
 
 <li> Request Handling: A web server efficiently handles incoming HTTP requests from clients (web browsers) and processes them according to the logic defined in the backend application code. </li>
@@ -61,13 +61,17 @@ Proxy servers act as intermediaries between clients and backend servers, enhanci
 
 <li> Logging and Monitoring: Web servers typically provide logging and monitoring capabilities to track server performance, request metrics, error logs, and other relevant data. This information helps administrators diagnose issues, optimize performance, and ensure the reliability of the server infrastructure.</li>  
 
-<h3> Application Server </h3>
+<h3>Application Server</h3>
 <p>This component processes requests from the client, interacts with external APIs, performs business logic, and generates dynamic content, reasons for developments are: </p>
 <li> Request Processing: The Application Server processes incoming requests from clients (such as web browsers or mobile apps) and determines how to handle them based on the application's logic and configuration. </li>
 <li> Business Logic Execution: It executes the business logic of the application, which may involve retrieving data from databases, processing user input, performing calculations, and applying business rules.</li>
 <li> Interaction with External APIs: The Application Server interacts with external APIs to retrieve data or perform actions required by the application. This could include integrating with third-party services for payment processing, geolocation, social media, or other functionalities. </li>
 <li> Session Management: Application Servers often handle session management, maintaining stateful interactions with clients across multiple requests. This allows the application to track user sessions, store session data, and maintain user authentication and authorization states. </li>
 <li> Security: Application Servers implement security measures to protect against common web vulnerabilities, such as cross-site scripting (XSS), SQL injection, cross-site request forgery (CSRF), and others. They may provide features like input validation, output encoding, access control, and encryption to safeguard sensitive data and ensure the integrity of the application.</li>
+<h3>Proxy Server</h3>
+<p> </p>
+
+TO DO!!!
   </body>
 </html>
 
