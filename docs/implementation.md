@@ -22,8 +22,10 @@ The major components of the software architecture are listed below:
     <li> Visual Representation: UI components like maps and visual representations of locations provide users with spatial context and help them visualize the geographical distribution of services. Maps allow users to explore locations visually, view nearby amenities, and plan routes to desired destinations. </li>
     <li> Accessibility: A well-designed UI ensures accessibility for users with diverse needs and abilities. Features such as clear labelling, sufficient colour contrast, keyboard navigation, and screen reader compatibility make the website accessible to a wider audience, including users with disabilities. </li>
 
-    <h5> Client-Side Scripting </h5>
-    <p> JavaScript frameworks like React.js, Vue.js, or Angular.js may be used to create dynamic and interactive features on the client side are used for several reasons in web developments: </p> 
+<h5> Client-Side Scripting </h5>
+
+<p> JavaScript frameworks like React.js, Vue.js, or Angular.js may be used to create dynamic and interactive features on the client side are used for several reasons in web developments: </p> 
+
   <li> Dynamic User Interfaces: JavaScript frameworks enable developers to create dynamic and responsive user interfaces. With client-side scripting, elements of a webpage can be updated or changed without requiring a full page reload. This results in a smoother and more interactive user experience, as users can interact with the website without experiencing delays or interruptions.</li>
   <li> Single Page Applications (SPAs): JavaScript frameworks facilitate the development of SPAs, where the entire application is loaded once and subsequent interactions are handled dynamically on the client side. SPAs provide a seamless browsing experience similar to a desktop application, as users navigate between different views without page refreshes.</li>
   <li> Component-Based Architecture: Frameworks such as React.js, Vue.js, and Angular.js promote a component-based architecture, where UI elements are encapsulated into reusable components. This modular approach simplifies development, improves code organization, and facilitates code reuse, leading to more maintainable and scalable applications. </li>
