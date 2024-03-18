@@ -8,7 +8,16 @@ TODO: Provide an outline of the project folder structure and the role of each fi
 provide a table listing the number of jslint warnings/reports for each module.
 
 ## Software Architecture
-TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
+The major components of the software architecture is listed below:
+
+<html>
+  <body>
+    <h2>  </h2>
+  </body>
+</html>
+
+
+
 
 ![Insert your component Diagram here](images/component.png)
 
