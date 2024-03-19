@@ -69,9 +69,13 @@ Proxy servers act as intermediaries between clients and backend servers, enhanci
 <li> Session Management: Application Servers often handle session management, maintaining stateful interactions with clients across multiple requests. This allows the application to track user sessions, store session data, and maintain user authentication and authorization states. </li>
 <li> Security: Application Servers implement security measures to protect against common web vulnerabilities, such as cross-site scripting (XSS), SQL injection, cross-site request forgery (CSRF), and others. They may provide features like input validation, output encoding, access control, and encryption to safeguard sensitive data and ensure the integrity of the application.</li>
 <h3>Proxy Server</h3>
-<p> </p>
+<p> A proxy server routes requests to the external open-source website's API, handles authentication and manages rate limiting.</p>
+<lil> Request Routing: A Proxy Server can route incoming client requests to different backend servers or services based on predefined rules or configurations. This enables load balancing, traffic distribution, and optimization of resources across multiple servers or endpoints.</lil>
+<li> Security: Proxy Servers can enhance security by acting as an intermediary between clients and backend servers. They can hide the internal network topology and IP addresses of backend servers, making it more difficult for attackers to target them directly. Additionally, proxies can inspect and filter incoming requests for malicious content, preventing attacks such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF).</li>
+<lil> Caching: Proxy Servers can cache responses from backend servers to improve performance and reduce latency for subsequent requests. By storing copies of frequently accessed data locally, proxies can serve requests more quickly without the need to retrieve data from the origin server each time. </lil>
+<lil> Content Transformation: Proxy Servers can modify or transform the content of requests and responses as they pass through the proxy. This allows for tasks such as content compression, encryption, protocol translation, or adding/removing headers for compatibility or security reasons. </lil>
+<li> Monitoring and Logging: Proxy Servers can log and monitor incoming and outgoing traffic, providing insights into usage patterns, performance metrics, and security events. This information can be valuable for troubleshooting, auditing, compliance, and performance optimization purposes. </li>
 
-TO DO!!!
   </body>
 </html>
 
