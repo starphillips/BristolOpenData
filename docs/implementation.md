@@ -3,6 +3,7 @@
 ## Introduction
 TODO: Describe the system implemented (Describe the dataset. Are there any known issues? Describe any configuration data).
 
+
 ## Project Structure
 TODO: Provide an outline of the project folder structure and the role of each file within it.
 provide a table listing the number of jslint warnings/reports for each module.
@@ -84,7 +85,7 @@ Proxy servers act as intermediaries between clients and backend servers, enhanci
 <li> Access to Diverse Data: Open-source APIs often provide access to a wide range of data, including location data, service listings, and other relevant information. This data can enrich the content and functionality of websites and apps, enhancing the overall user experience.</li>
 <li> Cost-effectiveness: Open-source APIs are typically free to use or offer affordable pricing plans, making them a cost-effective solution for accessing valuable data and services without the need to develop proprietary solutions from scratch.</li>
 <li> Mapping and Geolocation Services: Integration with mapping and geolocation services like Google Maps API or Mapbox API allows developers to incorporate interactive maps, location-based services, and geospatial data visualization into their applications. This enhances the user experience by providing visual representations of locations and services, improving navigation, and enabling location-based features. </li>
-<lil> Social Media Integration: Open-source APIs often provide integration with popular social media platforms like Facebook, Twitter, or Instagram. This enables developers to incorporate social features such as user authentication, sharing, commenting, and social proof into their applications. Integration with review aggregators like Yelp or TripAdvisor also allows users to access reviews and ratings for service listings, helping them make informed decisions.</lil>
+<li> Social Media Integration: Open-source APIs often provide integration with popular social media platforms like Facebook, Twitter, or Instagram. This enables developers to incorporate social features such as user authentication, sharing, commenting, and social proof into their applications. Integration with review aggregators like Yelp or TripAdvisor also allows users to access reviews and ratings for service listings, helping them make informed decisions.</li>
 
 
   </body>
