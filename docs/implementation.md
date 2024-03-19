@@ -35,7 +35,7 @@ The major components of the software architecture are listed below:
   <li> Rich UI Components: Frameworks like React.js, Vue.js, and Angular.js offer extensive libraries of UI components and plugins that developers can use to enhance the visual appearance and functionality of their applications. These pre-built components save development time and effort, allowing developers to focus on building unique features and solving specific business challenges. </li>
   <li> Developer Productivity: JavaScript frameworks streamline the development process by providing tools, utilities, and conventions that boost developer productivity. Features like hot module replacement (HMR), code splitting, and scaffolding tools enable rapid prototyping, iteration, and deployment of applications. </li>
 
-<h3> <b>Server-side Components</b> </h3>
+<h5> <b>Server-side Components</b> </h5>
      <p> Web servers, application servers, and proxy servers play critical roles in the architecture of web applications.
 
 Web servers are responsible for hosting and delivering web applications to clients, handling requests, delivering content, executing application logic, ensuring security, facilitating scalability, maintaining compatibility, and providing monitoring capabilities.
@@ -44,7 +44,7 @@ Application servers serve as the backbone of the backend architecture, executing
 
 Proxy servers act as intermediaries between clients and backend servers, enhancing security, performance, scalability, and manageability. They handle request routing, authentication, caching, rate limiting, load balancing, content transformation, and monitoring/logging, contributing to the overall efficiency and reliability of web applications.</p> 
 
-<h3>Web Server</h3>
+<h5>Web Server</h5>
 <p>The web server hosts the backend application code and serves web pages to clients upon request for several reasons: </p>
 
 <li> Request Handling: A web server efficiently handles incoming HTTP requests from clients (web browsers) and processes them according to the logic defined in the backend application code. </li>
@@ -61,20 +61,24 @@ Proxy servers act as intermediaries between clients and backend servers, enhanci
 
 <li> Logging and Monitoring: Web servers typically provide logging and monitoring capabilities to track server performance, request metrics, error logs, and other relevant data. This information helps administrators diagnose issues, optimize performance, and ensure the reliability of the server infrastructure.</li>  
 
-<h3>Application Server</h3>
+<h5>Application Server</h5>
 <p>This component processes requests from the client, interacts with external APIs, performs business logic, and generates dynamic content, reasons for developments are: </p>
 <li> Request Processing: The Application Server processes incoming requests from clients (such as web browsers or mobile apps) and determines how to handle them based on the application's logic and configuration. </li>
 <li> Business Logic Execution: It executes the business logic of the application, which may involve retrieving data from databases, processing user input, performing calculations, and applying business rules.</li>
 <li> Interaction with External APIs: The Application Server interacts with external APIs to retrieve data or perform actions required by the application. This could include integrating with third-party services for payment processing, geolocation, social media, or other functionalities. </li>
 <li> Session Management: Application Servers often handle session management, maintaining stateful interactions with clients across multiple requests. This allows the application to track user sessions, store session data, and maintain user authentication and authorization states. </li>
 <li> Security: Application Servers implement security measures to protect against common web vulnerabilities, such as cross-site scripting (XSS), SQL injection, cross-site request forgery (CSRF), and others. They may provide features like input validation, output encoding, access control, and encryption to safeguard sensitive data and ensure the integrity of the application.</li>
-<h3>Proxy Server</h3>
+<h5>Proxy Server</h5>
 <p> A proxy server routes requests to the external open-source website's API, handles authentication and manages rate limiting.</p>
-<lil> Request Routing: A Proxy Server can route incoming client requests to different backend servers or services based on predefined rules or configurations. This enables load balancing, traffic distribution, and optimization of resources across multiple servers or endpoints.</lil>
+<li> Request Routing: A Proxy Server can route incoming client requests to different backend servers or services based on predefined rules or configurations. This enables load balancing, traffic distribution, and optimization of resources across multiple servers or endpoints.</li>
 <li> Security: Proxy Servers can enhance security by acting as an intermediary between clients and backend servers. They can hide the internal network topology and IP addresses of backend servers, making it more difficult for attackers to target them directly. Additionally, proxies can inspect and filter incoming requests for malicious content, preventing attacks such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF).</li>
-<lil> Caching: Proxy Servers can cache responses from backend servers to improve performance and reduce latency for subsequent requests. By storing copies of frequently accessed data locally, proxies can serve requests more quickly without the need to retrieve data from the origin server each time. </lil>
-<lil> Content Transformation: Proxy Servers can modify or transform the content of requests and responses as they pass through the proxy. This allows for tasks such as content compression, encryption, protocol translation, or adding/removing headers for compatibility or security reasons. </lil>
+<li> Caching: Proxy Servers can cache responses from backend servers to improve performance and reduce latency for subsequent requests. By storing copies of frequently accessed data locally, proxies can serve requests more quickly without the need to retrieve data from the origin server each time. </li>
+<li> Content Transformation: Proxy Servers can modify or transform the content of requests and responses as they pass through the proxy. This allows for tasks such as content compression, encryption, protocol translation, or adding/removing headers for compatibility or security reasons. </li>
 <li> Monitoring and Logging: Proxy Servers can log and monitor incoming and outgoing traffic, providing insights into usage patterns, performance metrics, and security events. This information can be valuable for troubleshooting, auditing, compliance, and performance optimization purposes. </li>
+
+<h5>Data Storage and Retrieval</h5>
+<p> External API Integration enables the website to access external data or services, while Caching optimizes performance by storing frequently accessed data locally, thereby reducing latency and improving the overall user experience.</p>
+
 
   </body>
 </html>
