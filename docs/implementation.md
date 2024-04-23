@@ -8,6 +8,8 @@ TODO: Describe the system implemented (Describe the dataset. Are there any known
 TODO: Provide an outline of the project folder structure and the role of each file within it.
 provide a table listing the number of jslint warnings/reports for each module.
 
+![Insert your File Structure here](images/FileStructure.png)
+
 ## Software Architecture
 The major components of the software architecture are listed below:
 
