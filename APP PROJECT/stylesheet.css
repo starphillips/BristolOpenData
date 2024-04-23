@@ -1,0 +1,85 @@
+header {
+    color: whitesmoke;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1cm;
+}
+
+.search {
+    float: right;
+    font-size: x-small; /* Adjust the font size of the search bar text */
+}
+
+.search input[type="text"] {
+    width: 150px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin-right: 5px; /* Add margin for spacing */
+}
+
+.search button {
+    height: 30px; /* Adjust the height of the button to match the header */
+    vertical-align: middle; /* Align button vertically */
+}
+
+main {
+    text-align: center; /* Center-align text */
+}
+
+
+.image-container {
+    display: inline-block; /* Make the container inline-block */
+    margin: 20px; /* Adjust margin between images */
+}
+
+.image-container img {
+    display: block; /* Make images block-level elements */
+    width: 200px; /* Adjust the width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.blue {
+    background-color: lightskyblue;
+}
+
+.padded {
+    padding: 20px 10px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'ph ph ph ph'
+        'ln ln ln ln'
+        'cn cn cn cn'
+}
+
+
+header {
+    grid-area: ph;
+}
+
+nav {
+    grid-area: ln;
+}
+
+main {
+    grid-area: cn;
+}
+
+
+#table {
+    width: 800; height: 1500;     
+    border-collapse: separate; 
+    border-spacing: 10px; 
+    
+}
+
+#map {
+    position: absolute;
+    top: 1;
+    left: 30%; 
+    height: 60%;
+    width: 60%;
+}

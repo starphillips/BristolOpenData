@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Advice Drop In Centre </title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js"></script>
+
+    <!-- font links-->
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- icon links-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- W3 CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.13.1/OpenLayers.js"></script>
+    <script src="script.js" defer></script>
+
+
+    <script>
+        const MY_TOKEN = "pk.eyJ1Ijoic3RhcnBoaWxsaXBzIiwiYSI6ImNsdHljbzB6cjBjcW8yam9qMjJpeXdtMDMifQ.313hpJO610hqpggFJCYoyg";
+    </script>
+
+<script>
+    function addMarkers(json) {
+        
+        console.log(json);
+        let features = json.features; 
+        for (i=0; i<features.length; i++) {
+            let a = features[i].attributes;
+            let g = features[i].geometry;
+            let marker = new mapboxgl.Marker().setLngLat([g.x, g.y]).addTo(map);
+            let popupContent = `<strong>Venue:</strong> ${a.VENUE}<br><strong>Advice Type:</strong> ${a.ADVICE_TYPE}`;
+            let popup = new mapboxgl.Popup({ offset: 25 }).setHTML(popupContent);
+            marker.setPopup(popup);
+        }
+    }
+
+    function query() {
+        
+        let url = "https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/22/query?where=1%3D1&outFields=VENUE,ADDRESS,ORGANISATION,ADVICE_TYPE&outSR=4326&f=json";
+        fetch(url,{method: "GET", headers: {Accept: "application/json"}})
+        .then(res =>res.json())
+        .then(addMarkers);
+    }
+</script>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="blue padded">
+            ADVICE DROP IN CENTRES
+            <span>
+                <form class="search" action="table.html">
+                    <input name="searchterm" placeholder="Search..." type="text" />
+                    <button type="submit"><i class="material-icons">search</i></button>
+                </form>
+            </span>
+
+
+
+        </header>
+        <nav class="w3-container w3-margin">
+            <button onclick="location.href='index.html'" class="w3-button w3-light-blue w3-monospace w3-border">Home</button>
+            <button onclick="getLocation('map.html')" class="w3-button w3-light-blue w3-monospace w3-border">Find by Map</button>
+            <button onclick="location.href='table.html'" class="w3-button w3-light-blue w3-monospace w3-border">Find by Type</button>
+        </nav>
+        <main class="w3-margin">
+            <div id="map"></div>
+
+            <script>
+
+                // get query string parameters lat, lon
+                var urlParams = new URLSearchParams(location.search);
+                var lat = urlParams.get('lat');
+                var lon = urlParams.get('lon');
+
+                mapboxgl.accessToken = MY_TOKEN;
+                var map = new mapboxgl.Map({
+                    container: 'map', // container ID
+                    center: [lon, lat], // longitude, latitude
+                    zoom: 14 // zoom level
+                });
+
+                    // Create marker and add it to the map.
+                    map.on('load', () => {
+
+                    query();
+                    });
+
+            </script>
+        </main>
+    </div>
+</body>
+
+</html>
