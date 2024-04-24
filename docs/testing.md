@@ -35,4 +35,16 @@ Test Runs
     <td>Pass</td>
     <td>TC-003FR4.1</td>
   </tr>
+   <tr>
+    <td>REQ-005</td>
+    <td>The application should load data efficiently.</td>
+    <td>Pass</td>
+    <td>TC-003FR3.1</td>
+  </tr>
+     <tr>
+    <td>REQ-006</td>
+    <td>Users should be able to access detailed information about each advice drop-in session, including the type of advice offered, session timings, and contact details.</td>
+    <td>Pass</td>
+    <td>TC-003FR3.3</td>
+  </tr>
 </table>
