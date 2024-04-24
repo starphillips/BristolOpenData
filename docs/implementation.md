@@ -19,48 +19,49 @@ The outline of the project folder structure can be seen in the image below:
 
 The main app ‘Advice Drop-In Centre’ is located within the ‘APP PROJECT’ folder, with index.html as the splash page and JavaScript and CSS pages included here. Images that are used within the app are located in a separate folder, ‘Images’. Test scripts are located in the test folder. 
 
-This is the lint output for script.js:
+The table below demonstrates the lint output for script.js and the justification behind the errors:
+<table>
+  <tr>
+    <th> Line of Code </th>
+    <th> Lint Output </th>
+    <th> Justification </th>
+  </tr>
 
-Error
-1:10
+  <tr>
+    <td> Error 1:10 </td>
+    <td> 'getLocation' is defined but never used.  (no-unused-vars) </td>
+    <td> The function 'getLocation' is provided as a library function and is used elsewhere. </td>
+  </tr>
 
-'getLocation' is defined but never used.  (no-unused-vars)
-Error
-2:3
+  <tr> 
+    <td> Error 2:3, 7:9, 8:9 </td>
+    <td> 'navigator' is not defined.  (no-undef) </td>
+    <td> The navigator object is provided in the web browser. </td>
+  </tr>
 
-'navigator' is not defined.  (no-undef)
-Error
-3:15
+  <tr> 
+    <td> Error 3:15 </td>
+    <td> 'console' is not defined.  (no-undef) </td>
+  </tr>
 
-'console' is not defined.  (no-undef)
-Error
-4:15
+  <tr>
+    <td> Error 4:15 </td>
+    <td> 'error' is not defined.  (no-undef) </td>
+  </tr>
 
-'error' is not defined.  (no-undef)
-Error
-7:9
+  <tr>
+    <td> Error 10:13, 14:13, 21:9 </td>
+    <td> 'location' is not defined.  (no-undef)</td>
+  </tr>
 
-'navigator' is not defined.  (no-undef)
-Error
-8:9
+  <tr>
+    <td>Error 19:9 </td>
+    <td> 'alert' is not defined.  (no-undef)  </td>
+  </tr>
 
-'navigator' is not defined.  (no-undef)
-Error
-10:13
 
-'location' is not defined.  (no-undef)
-Error
-14:13
-
-'location' is not defined.  (no-undef)
-Error
-19:9
-
-'alert' is not defined.  (no-undef)
-Error
-21:9
-
-'location' is not defined.  (no-undef)
+  
+</table>
 
 
 ## Software Architecture
