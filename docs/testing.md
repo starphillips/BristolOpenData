@@ -45,8 +45,17 @@ Test Data: Keyword "debt advice".
 <li> Verify that the returned JSON contains advice centres related to debt advice.</li>
 </ol>
 
+<h4>Test Case ID: UT-002</h4>
+Test Case Name: Retrieve Details of an Advice Center<br> 
+Description: Test the functionality to retrieve details of an individual advice centre.<br> 
+Prerequisites: Codebase with implemented function to retrieve advice centre details.<br> 
+Test Data: JSON object representing an advice centre.<br> 
 
-
+<h4>Test Steps:</h4>
+<ol>
+<li> Pass a sample JSON object representing an advice centre to the outputTable function. </li>
+<li> Verify that the table row generated contains the correct venue, address, organization, and advice type.</li>
+</ol>
 
 
 
