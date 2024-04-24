@@ -90,8 +90,21 @@ Test Data: JSON object representing an advice centre.<br>
 <li> Verify that the table row generated contains the correct venue, address, organization, and advice type.</li>
 </ol>
 
+<h4> Test Case ID: UT-003 </h4>
+Test Case Name: TestDataLoadingEfficiency<br> 
+Description: Verify that the application loads data efficiently.<br> 
+Requirement: REQ-005 <br> 
+Test Priority: High <br> 
 
+<h4> Test Steps: </h4>
+<ol> 
+<li> Prepare a sample dataset with predefined data.</li>
+<li> Simulate the data loading process in a controlled environment.</li>
+<li> Measure the time taken by the application to load the sample dataset.</li>
+<li> Compare the loading time with the defined threshold for efficiency.</li>
+<li> Pass the test if the loading time is below the defined threshold; otherwise, fail the test.</li>
 
+</ol>
 
 
 
