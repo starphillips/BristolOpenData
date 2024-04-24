@@ -57,7 +57,7 @@ Prerequisites: Access to the application and multiple devices (e.g., desktop, la
 </ol>
 
 <h4> Test Case ID: MT-005 </h4>
-Test Case Name: The ability to sort centres by type<br>
+Test Case Name: The Ability to Sort Centres by Type<br>
 Description: Verify that when choosing an advice type, all centres that support that advice type will be listed for users.<br>
 Prerequisites: Access to the app <br>
 
@@ -70,7 +70,7 @@ Prerequisites: Access to the app <br>
 </ol>
 
 <h4> Test Case ID: MT-006 </h4>
-Test Case Name: The map centres on the user's location <br>
+Test Case Name: The Map Centres on the User's Location <br>
 Description: Verify that when granted permission to use a user's location, the map will centre so that users can seek the nearest centre to them.<br>
 Prerequisites: The user has granted permission to use their location. <br>
 
