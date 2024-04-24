@@ -15,18 +15,19 @@ TODO: Add rows for each test, current status is eg. pass/fail
   <tr>
     <th>Requirement ID</th>
     <th>Requirement Description</th>
-    <th>Implemented in Code?>
+    <th>Pass/Fail>
     <th>Test Case ID</th>
   </tr>
   <tr>
     <td>REQ-001</td>
     <td>Users can search for advice centres by typing in a keyword.</td>
-    <td>Yes</td>
-    <td>TC-001</td>
+    <td>Pass</td>
+    <td>TC-001FR4</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>REQ-002</td>
+    <td>Users can view a list of advice centres.</td>
+    <td>Pass</td>
+    <td>TC-002FR5</td>
   </tr>
 </table>
