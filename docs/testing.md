@@ -1,7 +1,5 @@
 # Testing
 
-## Test Plan
-TODO: Describe any manual and automated (unit) tests. Uniquely identify each test case. Include prerequisites and test data.
 <H3> Manual Test Cases:</H3>
 <p> 
 <h4> Test Case ID: MT-001 </h4>
