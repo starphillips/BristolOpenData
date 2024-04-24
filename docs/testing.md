@@ -11,3 +11,22 @@ Create a requirements traceability matrix to validate the completeness of the pr
 | ----------- | -------------- | --------- | ------ |
 
 TODO: Add rows for each test, current status is eg. pass/fail
+<table>
+  <tr>
+    <th>Requirement ID</th>
+    <th>Requirement Description</th>
+    <th>Implemented in Code?>
+    <th>Test Case ID</th>
+  </tr>
+  <tr>
+    <td>REQ-001</td>
+    <td>Users can search for advice centres by typing in a keyword.</td>
+    <td>Yes</td>
+    <td>TC-001</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
