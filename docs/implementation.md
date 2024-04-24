@@ -37,7 +37,7 @@ The table below demonstrates the lint output for script.js and the justification
   <tr> 
     <td> Error 2:3, 7:9, 8:9 </td>
     <td> 'navigator' is not defined.  (no-undef) </td>
-    <td> The navigator object is provided in the web browser to access browser-specific features, i.e. a user's geolocation. </td>
+    <td> The 'navigator' object is provided in the web browser to access browser-specific features, i.e. a user's geolocation. </td>
   </tr>
 
   <tr> 
@@ -49,7 +49,7 @@ The table below demonstrates the lint output for script.js and the justification
   <tr>
     <td> Error 4:15 </td>
     <td> 'error' is not defined.  (no-undef) </td>
-    <td> 'error' is used to log and display a message to request the user's location before loading map.html, so that the user can identify the centres closest to them. </td>
+    <td> 'error' is used to log error messages to the browser's console i.e. if a user denies access to their location. </td>
     
   </tr>
 
