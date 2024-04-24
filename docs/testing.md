@@ -23,7 +23,8 @@ Prerequisites: Access to the advice drop-in centre system.<br>
 
 <h4>Test Steps:</h4>
 <ol>
-<li>Click on a specific advice centre from the list.</li>
+<li>Click on the 'Find by Type' button on the navigation bar.</li>
+<li>Select a specific advice centre from the list.</li>
 <li>Verify that the details of the selected advice centre (venue, address, organisation, advice type) are displayed.</li>
 </ol>
 
@@ -70,7 +71,7 @@ Prerequisites: Access to the app <br>
 
 <h4> Test Case ID: MT-006 </h4>
 Test Case Name: The map centres on the user's location <br>
-Description: Verify that when granted permission to use a user's location, the map will centre so that users to seek the nearest centre to them.<br>
+Description: Verify that when granted permission to use a user's location, the map will centre so that users can seek the nearest centre to them.<br>
 Prerequisites: The user has granted permission to use their location. <br>
 
 <h4> Test Steps:</h4>
