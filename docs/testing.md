@@ -3,16 +3,22 @@
 ## Test Plan
 TODO: Describe any manual and automated (unit) tests. Uniquely identify each test case. Include prerequisites and test data.
 <H3> Manual Test Cases:</H3>
-<p> Test Case ID: MT-001
-Test Case Name: Search for Advice Centers by Keyword
-Description: Verify that users can search for advice centers by typing in a keyword.
-Prerequisites: Access to the advice drop-in center system.
-Test Steps:
+<p> 
+<li> Test Case ID: MT-001</li>
+<li> Test Case Name: Search for Advice Centers by Keyword </li>
+<li> Description: Verify that users can search for advice centres by typing in a keyword.</li>
+<li> Prerequisites: Access to the advice drop-in centre system.</li>
 
-Open the search bar on the homepage.
-Type in a keyword (e.g., "debt advice").
-Press the search button.
-Verify that the search results display advice centers related to the keyword.</p>
+  <h4>Test Steps:</h4>
+
+<ol> 
+<li> Open the search bar on the homepage.</li>
+<li> Type in a keyword (e.g., "debt advice").</li>
+<li> Press the search button.</li>
+<li> Verify that the search results display advice centres related to the keyword.</li>
+</ol>
+
+</p>
 
 
 
