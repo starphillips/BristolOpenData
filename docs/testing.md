@@ -47,4 +47,9 @@ Test Runs
     <td>Pass</td>
     <td>TC-006FR3.3</td>
   </tr>
+      <td>REQ-007</td>
+    <td>The system should ensure data security and privacy.</td>
+    <td>Pass</td>
+    <td>TC-007FR1.1</td>
+  </tr>
 </table>
