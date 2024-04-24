@@ -151,10 +151,10 @@ Proxy servers act as intermediaries between clients and backend servers, enhanci
 
 
 
-![Insert your component Diagram here](images/component.png)
+![Insert your component Diagram here](images/ComponentDiagramAC.png)
 
 ## Bristol Open Data API
 TODO: Document each query to Bristol Open Data
 
-![UML Class diagrams representing JSON query results](images/class1.png)
+![UML Class diagrams representing JSON query results](images/UMLDiagramAC.png)
 TODO: Repeat as necessary
