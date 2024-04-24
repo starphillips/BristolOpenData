@@ -2,7 +2,9 @@
 
 ## Introduction
 TODO: Describe the system implemented (Describe the dataset. Are there any known issues? Describe any configuration data).
-
+<body> 
+<h3> The system implemented is a web-based application for accessing information about advice drop-in centres. Here's a description of the system components:</h3>
+</body>
 
 ## Project Structure
 TODO: Provide an outline of the project folder structure and the role of each file within it.
