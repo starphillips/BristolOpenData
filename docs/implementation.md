@@ -19,6 +19,7 @@ The outline of the project folder structure can be seen in the image below:
 
 The main app ‘Advice Drop-In Centre’ is located within the ‘APP PROJECT’ folder, with index.html as the splash page and JavaScript and CSS pages included here. Images that are used within the app are located in a separate folder, ‘Images’. Test scripts are located in the test folder. 
 
+<h4> Lint </h4>
 The table below demonstrates the lint output for script.js and the justification behind the errors:
 <table>
   <tr>
