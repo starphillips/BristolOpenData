@@ -29,6 +29,27 @@ Prerequisites: Access to the advice drop-in centre system.<br>
 <li>Verify that the details of the selected advice centre (venue, address, organization, advice type) are displayed.</li>
 </ol>
 
+<h4> Test Case ID: MT-003 </h4>
+Test Case Name: Load Large Dataset <br>
+Description: Verify that the application can efficiently load a large dataset.<br>
+Prerequisites: Access to the application and a large dataset available for testing.<br>
+
+<h4>Test Steps:</h4>
+<ol>
+<li> Prepare a large dataset containing a significant amount of information.</li>
+<li> Upload the large dataset to the application.</li>
+<li> Observe the application's behaviour during the data loading process.</li>
+<li> Verify that the application can handle the large dataset without significant delays or performance issues.</li>
+</ol>
+
+
+
+
+
+
+
+
+
 </p>
 
 <H3> Automated (Unit) Test Cases:</H3>
