@@ -18,6 +18,17 @@ Prerequisites: Access to the advice drop-in centre system.<br>
 <li> Verify that the search results display advice centres related to the keyword.</li>
 </ol>
 
+Test Case ID: MT-002<br>
+Test Case Name: View Details of an Advice Center<br>
+Description: Verify that users can view details of an individual advice centre.<br>
+Prerequisites: Access to the advice drop-in centre system.<br> 
+
+<h4>Test Steps:</h4>
+<ol>
+<li>Click on a specific advice centre from the list.</li>
+<li>Verify that the details of the selected advice centre (venue, address, organization, advice type) are displayed.</li>
+</ol>
+
 </p>
 
 
