@@ -4,9 +4,9 @@
 <body> 
 The system implemented is a web-based application for accessing information about advice drop-in centres. Here's a description of the system components:
 <h4>Dataset: </h4>
-<p>The dataset is sourced from a server hosting geospatial data about advice drop-in centres in Bristol, UK. This data includes information such as venue names, addresses, organizations, and advice types. The data is retrieved in JSON format via AJAX requests to a specific URL endpoint (https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/22/query). The response JSON object contains an array of features, each representing an advice drop-in centre, with attributes like venue name, address, organization, and advice type. The dataset is dynamically loaded into the web page's table element to display advice centre information in a tabular format.</p>
+<p>The dataset is sourced from a server hosting geospatial data about advice drop-in centres in Bristol, UK. This data includes information such as venue names, addresses, organisations, and advice types. The data is retrieved in JSON format via AJAX requests to a specific URL endpoint (https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/22/query). The response JSON object contains an array of features, each representing an advice drop-in centre, with attributes like venue name, address, organization, and advice type. The dataset is dynamically loaded into the web page's table element to display advice centre information in a tabular format.</p>
   
-<p> The system's HTML and JavaScript code doesn't directly include configuration data, the URL endpoint for data retrieval and the mapping of advice types to querying parameters, are hardcoded within the JavaScript functions (outputtable and query).</p>
+<p> The system's HTML and JavaScript code doesn't directly include configuration data, the URL endpoint for data retrieval and the mapping of advice types to querying parameters, are hardcoded within the JavaScript functions (output table and query).</p>
 
 <p>One challenge faced with the dataset was the inability to group it based on the nearest user location. Additionally, there were instances where it retrieved other services that were not relevant to the service being used. However, this issue has been addressed and resolved.</p>
 </body>
@@ -31,33 +31,38 @@ The table below demonstrates the lint output for script.js and the justification
   <tr>
     <td> Error 1:10 </td>
     <td> 'getLocation' is defined but never used.  (no-unused-vars) </td>
-    <td> The function 'getLocation' is provided as a library function and is used elsewhere. </td>
+    <td> The function 'getLocation' is provided as a library function and is called on other pages of our application. </td>
   </tr>
 
   <tr> 
     <td> Error 2:3, 7:9, 8:9 </td>
     <td> 'navigator' is not defined.  (no-undef) </td>
-    <td> The navigator object is provided in the web browser. </td>
+    <td> The navigator object is provided in the web browser to access browser-specific features, i.e. a user's geolocation. </td>
   </tr>
 
   <tr> 
     <td> Error 3:15 </td>
     <td> 'console' is not defined.  (no-undef) </td>
+    <td> 'console' is a standard object provided by web browsers to log information. </td>
   </tr>
 
   <tr>
     <td> Error 4:15 </td>
     <td> 'error' is not defined.  (no-undef) </td>
+    <td> 'error' is used to log and display a message to request the user's location before loading map.html, so that the user can identify the centres closest to them. </td>
+    
   </tr>
 
   <tr>
     <td> Error 10:13, 14:13, 21:9 </td>
     <td> 'location' is not defined.  (no-undef)</td>
+    <td> In the web browser, 'location' is a built-in object that represents the current URL.</td>
   </tr>
 
   <tr>
     <td>Error 19:9 </td>
     <td> 'alert' is not defined.  (no-undef)  </td>
+    <td> 'alert'  is a standard method in JavaScript used to display alert dialogs in browsers. This will be used to create our pop-up that requests for the users location before displaying the map. </td>
   </tr>
 
 
