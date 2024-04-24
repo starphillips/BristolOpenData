@@ -4,10 +4,10 @@
 TODO: Describe any manual and automated (unit) tests. Uniquely identify each test case. Include prerequisites and test data.
 <H3> Manual Test Cases:</H3>
 <p> 
-<li> Test Case ID: MT-001</li>
-<li> Test Case Name: Search for Advice Centers by Keyword </li>
-<li> Description: Verify that users can search for advice centres by typing in a keyword.</li>
-<li> Prerequisites: Access to the advice drop-in centre system.</li>
+Test Case ID: MT-001<br>
+Test Case Name: Search for Advice Centers by Keyword <br>
+Description: Verify that users can search for advice centres by typing in a keyword.<br>
+Prerequisites: Access to the advice drop-in centre system.<br>
 
   <h4>Test Steps:</h4>
 
