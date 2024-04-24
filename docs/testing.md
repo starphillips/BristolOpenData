@@ -42,8 +42,20 @@ Prerequisites: Access to the application and a large dataset available for testi
 <li> Verify that the application can handle the large dataset without significant delays or performance issues.</li>
 </ol>
 
+<h4> Test Case ID: MT-004 </h4>
+Test Case Name: Load Data on Different Devices<br>
+Description: Verify that the application loads data efficiently on different devices.<br>
+Prerequisites: Access to the application and multiple devices (e.g., desktop, laptop, tablet, smartphone).<br>
 
-
+<h4> Test Steps:</h4>
+<ol> 
+<li> Open the application on each device. </li>
+<li> Note the current time when the data loading process starts.</li>
+<li> Wait for the application to load all necessary data on each device.</li>
+<li> Note the time again when the loading process completes on each device.</li>
+<li> Calculate the time taken to load the data on each device.</li>
+<li> Verify that the data loading time is consistent across different devices and within the acceptable range defined in the requirements.</li>
+</ol>
 
 
 
