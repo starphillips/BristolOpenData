@@ -29,4 +29,10 @@ Test Runs
     <td>Pass</td>
     <td>TC-003FR5.1</td>
   </tr>
+      <tr>
+    <td>REQ-004</td>
+    <td>Users can search for advice centres by location.</td>
+    <td>Pass</td>
+    <td>TC-003FR4.1</td>
+  </tr>
 </table>
