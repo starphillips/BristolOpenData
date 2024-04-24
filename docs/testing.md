@@ -31,8 +31,32 @@ Prerequisites: Access to the advice drop-in centre system.<br>
 
 </p>
 
+<H3> Automated (Unit) Test Cases:</H3>
+<p>
+<h4> Test Case ID: UT-001 </h4>
+Test Case Name: Query Advice Centers by Keyword <br> 
+Description: Test the functionality to query advice centres by keyword.<br> 
+Prerequisites: Codebase with implemented search functionality.<br> 
+Test Data: Keyword "debt advice".
+  
+<h4> Test Steps: </h4>
+<ol>
+<li> Call the query function with the keyword "debt advice". </li>
+<li> Verify that the returned JSON contains advice centres related to debt advice.</li>
+</ol>
 
 
+
+
+
+
+
+
+
+
+
+  
+</p>
 
 
 
