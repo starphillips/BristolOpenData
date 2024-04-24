@@ -22,7 +22,7 @@ The main app ‘Advice Drop-In Centre’ is located within the ‘APP PROJECT’
 The table below demonstrates the lint output for script.js and the justification behind the errors:
 <table>
   <tr>
-    <th> Line of Code </th>
+    <th> Line of Code: Number of Lines Used </th>
     <th> Lint Output </th>
     <th> Justification </th>
   </tr>
