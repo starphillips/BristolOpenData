@@ -3,7 +3,9 @@
 ## Introduction
 TODO: Describe the system implemented (Describe the dataset. Are there any known issues? Describe any configuration data).
 <body> 
-<h3> The system implemented is a web-based application for accessing information about advice drop-in centres. Here's a description of the system components:</h3>
+The system implemented is a web-based application for accessing information about advice drop-in centres. Here's a description of the system components:
+<h6>Dataset: </h6>
+The dataset appears to be sourced from a server hosting geospatial data about advice drop-in centres in a specific area, likely Bristol, UK. This data includes information such as venue names, addresses, organizations, and advice types. The data is retrieved in JSON format via AJAX requests to a specific URL endpoint (https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/22/query). The response JSON object contains an array of features, each representing an advice drop-in centre, with attributes like venue name, address, organization, and advice type. The dataset is dynamically loaded into the web page's table (<table>) element to display advice centre information in a tabular format.
 </body>
 
 ## Project Structure
