@@ -24,7 +24,7 @@ Prerequisites: Access to the advice drop-in centre system.<br>
 <h4>Test Steps:</h4>
 <ol>
 <li>Click on a specific advice centre from the list.</li>
-<li>Verify that the details of the selected advice centre (venue, address, organization, advice type) are displayed.</li>
+<li>Verify that the details of the selected advice centre (venue, address, organisation, advice type) are displayed.</li>
 </ol>
 
 <h4> Test Case ID: MT-003 </h4>
@@ -55,7 +55,30 @@ Prerequisites: Access to the application and multiple devices (e.g., desktop, la
 <li> Verify that the data loading time is consistent across different devices and within the acceptable range defined in the requirements.</li>
 </ol>
 
+<h4> Test Case ID: MT-005 </h4>
+Test Case Name: The ability to sort centres by type<br>
+Description: Verify that when choosing an advice type, all centres that support that advice type will be listed for users.<br>
+Prerequisites: Access to the app <br>
 
+<h4> Test Steps:</h4>
+<ol> 
+<li> Open the application. </li>
+<li> Select the 'Find by Type' button. </li>
+<li> Click on any advice type from the advice type navigation bar e.g. Debt. </li>
+<li> Verify that the centres listed do offer the selected advice type i.e. all centres listed below should offer Debt Advice after clicking on the Debt button. </li>
+</ol>
+
+<h4> Test Case ID: MT-006 </h4>
+Test Case Name: The map centres on the user's location <br>
+Description: Verify that when granted permission to use a user's location, the map will centre so that users to seek the nearest centre to them.<br>
+Prerequisites: The user has granted permission to use their location. <br>
+
+<h4> Test Steps:</h4>
+<ol> 
+<li> Click on the 'Find by Map' button. </li>
+<li> Accept the permissions to use the current location. </li>
+<li> Verify the map view has positioned itself to where the user is located once the page has loaded. </li>
+</ol>
 
 
 
