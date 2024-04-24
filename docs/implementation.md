@@ -13,9 +13,55 @@ The system implemented is a web-based application for accessing information abou
 
 
 ## Project Structure
-The outline of the project folder structure can be seen on the image below:
+The outline of the project folder structure can be seen in the image below:
 
 ![Insert your File Structure here](images/FileStructure.png)
+
+The main app ‘Advice Drop-In Centre’ is located within the ‘APP PROJECT’ folder, with index.html as the splash page and JavaScript and CSS pages included here. Images that are used within the app are located in a separate folder, ‘Images’. Test scripts are located in the test folder. 
+
+This is the lint output for script.js:
+
+Error
+1:10
+
+'getLocation' is defined but never used.  (no-unused-vars)
+Error
+2:3
+
+'navigator' is not defined.  (no-undef)
+Error
+3:15
+
+'console' is not defined.  (no-undef)
+Error
+4:15
+
+'error' is not defined.  (no-undef)
+Error
+7:9
+
+'navigator' is not defined.  (no-undef)
+Error
+8:9
+
+'navigator' is not defined.  (no-undef)
+Error
+10:13
+
+'location' is not defined.  (no-undef)
+Error
+14:13
+
+'location' is not defined.  (no-undef)
+Error
+19:9
+
+'alert' is not defined.  (no-undef)
+Error
+21:9
+
+'location' is not defined.  (no-undef)
+
 
 ## Software Architecture
 The major components of the software architecture are listed below:
