@@ -1,9 +1,6 @@
 # Deployment
 
-## Release Notes
-TODO: Describe the current version of the system (with version number. Include system dependencies ands software tools used.
-Are there any known issues? 
-Describe the deployment of software components to hardware nodes using a UML Deployment diagram.
+<p>Version 1.0.4 of the system currently facilitates the splash page and the first two use cases. This allows users to locate nearby services as per the first use case and refine service options based on different attributes as per the second use case. Development for the third use case is ongoing. The functionality of this application relies on the Bristol Open Data API and MapBox API. Should either of these services become unavailable, the application may not function as expected. The Deployment Diagram provided below outlines the interaction between this web application and the Bristol Open Data.</p>
 
 ![Insert Deployment diagram here](images/DepDiagram.png)
 
