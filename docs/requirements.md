@@ -22,25 +22,25 @@ Actors that appear in the following use-case are as follows:
 
 ### Use Cases
 
-| USE-CASE 1 | Checking the correct and updated information is available on the app and informing of any changes| 
-| -------------------------------------- | ------------------- |
-| **Description** |  As an employee of an advice centre, I want to ensure that the correct information about the centre is displayed on the app so that the local community understands the services available to them. |
-| **Actors** | Advice centre employee |
-| **Assumptions** | <ul> <li> The app has a table displaying each advice centre's name, address, opening times and types of advice. </li> <li>There is a search bar for users to search centre names</li> <li> There are filters available for the user to narrow down the table based on information about the centres e.g. what centres specialise in financial advice </li> </ul> </td></tr>
-| **Steps** | <ol> <li> App will open on map, in which the user must click on the table tab to display the centres within a list </li> <li> Scroll and identify the advice centre's name </li> <li> Check that all information about the advice centre is correct based on the information they know as an employee of the centre </li> <li> Get in contact with app maintainer if information is not updated or incorrect </li> </ol> |
-| **Variations** | <ul> <li> If the user is able to locate the centre based on a full list, the search bar is available for the user to search for advice centre by name </li> <li> The user is able to user filters to narrow down the list based on certain features of a centre </li> </ul>|
-| **Non-functional** | The app should work on Android devices |
-| **Issues** | None identified. 
-
-| USE-CASE 2 | Identify Free Local Finacial Advice & Support | 
+| USE-CASE 1 Fara | Identify Free Local Finacial Advice & Support | 
 | -------------------------------------- | ------------------- |
 | **Description** | As an individual struggling with debt, I want a single place so that I can seek support for my debt without stigma. 
 | **Actors** | Person in Bristol seeking advice
 | **Assumptions** | The user enables the collection of cookies and shares geo-location. 
 | **Steps** | <ol><li> Search Keyword - e.g., Debt</li><li> Give Permission to use my location</li> <li> Centre map on user</li> <li> Add markers for locations in proximity to user about the advice type they've selected</li> <li> Generate route to the selected location using local software</li> </ol>
 | **Variations** | The User may not specify advice type, so all centres within proximity should be displayed. |
-| **Non-functional** | <ul> <li>The app should work on Android devices</li> <li>The app should display the advice centres that specialise in the user's chosen advice type.</li> <li>The system should allow the user to select their method of travel, e.g. by car, walking</li> <li>The system should generate an optimal route that the user can follow to reach the advice centre based on the user's selected method of travel</li> <li> The app must assume a sensible default location when geolocation is not available for a user (e.g. centre of Bristol) </li> </ul>|
+| **Non-functional** | <ul> <li>The app should work on Android devices</li> <li>The app should display the advice centres that specialise in the user's chosen advice type.</li> <li> The app must assume a sensible default location when geolocation is not available for a user (e.g. centre of Bristol) </li> </ul>|
 | **Issues** | Location information will not be displayed if permission to access the location is not granted.
+
+| USE-CASE 2 Starkie | Checking the correct and updated information is available on the app and informing of any changes| 
+| -------------------------------------- | ------------------- |
+| **Description** |  As an employee of an advice centre, I want to ensure that the correct information about the centre is displayed on the app so that the local community understands the services available to them. |
+| **Actors** | Advice centre employee |
+| **Assumptions** | <ul> <li> The app has a table displaying each advice centre's name, address, opening times and types of advice. </li> <li>There is a search bar for users to search centre names</li> <li> There are filters available for the user to narrow down the table based on information about the centres e.g. what centres specialise in financial advice </li> </ul> </td></tr>
+| **Steps** | <ol> <li> App will open on the home page, in which the user must click on the 'Find by Type' tab to display the centres within a list </li> <li> Scroll and identify the advice centre's name </li> <li> Check that all information about the advice centre is correct based on the information they know as an employee of the centre </li> <li> Get in contact with app maintainer if the information is not updated or incorrect </li> </ol> |
+| **Variations** | <ul> <li> If the user is able to locate the centre based on the map, the search bar is available for the user to search for advice centre by name </li> <li> The user can user filters to narrow down the list based on certain features of a centre </li> </ul>|
+| **Non-functional** | The app should work on Android devices |
+| **Issues** | None identified. 
 
 | USE-CASE 3 | Keeping information up-to-date and updating if there are any changes | 
 | -------------------------------------- | ------------------- |
