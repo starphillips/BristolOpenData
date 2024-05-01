@@ -8,7 +8,7 @@
 ### Use Case 1: Identify Free Local Financial Advice & Support
 1. User launches the application and initiates a search by entering a keyword related to their financial concern, such as "Debt". ![Insert screenshots here](images/HomePageSearch.png)
 2. The application prompts the user to give permission to use their location to provide tailored results. 
-3. User grants permission for location access. ![Insert screenshots here](images/LocationTag.png)
+3. User grants permission for location access. ![Insert screenshots here](images/Location Tag.png)
 4. The application centres the map on the user's current location. 
 5. The map displays markers for the locations of Advice centres around Bristol that offer support related to the entered keyword (e.g., debt counselling). 
 6. The user clicks on a marker to view more information. ![Insert screenshots here](images/MapPin.png)
