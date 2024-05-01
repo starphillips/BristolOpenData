@@ -17,7 +17,7 @@ The outline of the project folder structure can be seen in the image below:
 
 ![Insert your File Structure here](images/FileStructure.png)
 
-All aspect of the project are located within the 'WhereTo.io' folder. 
+All aspects of the project are located within the 'WhereTo.io' folder. 
 
 The main app ‘Advice Drop-In Centre’ is located within the ‘APP PROJECT’ folder, with index.html as the splash page and JavaScript and CSS pages included here. This is alongside the other web pages and the test script. Images that are used within the app are located in a separate folder, ‘Images’. 
 
