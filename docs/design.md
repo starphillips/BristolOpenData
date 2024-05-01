@@ -28,10 +28,10 @@ By leveraging this dataset, "Where To" aims to provide accurate and up-to-date i
 
 <h4> Design Philosophy</h4>
 
-<li>User-Centric Design: The application prioritizes the needs of users by offering a simple and intuitive interface for locating Advice Drop-In Centres.</li>
-<li>Accessibility: The design ensures accessibility for all users, including those with disabilities, by adhering to accessibility standards and providing alternative navigation options.</li>
-<li>Customization: Users have the flexibility to customize their search experience by applying filters and selecting preferred transportation modes.</li>
-<li>Transparency: By sourcing data from Open Data Bristol, the application promotes transparency and accountability in providing public information about advice services in the community.</li>
+<li>User-Centric Design, the application prioritizes the needs of users by offering a simple and intuitive interface for locating Advice Drop-In Centres.</li>
+<li>Accessibility, the design ensures accessibility for all users, including those with disabilities, by adhering to accessibility standards and providing alternative navigation options.</li>
+<li>Customization, users have the flexibility to customize their search experience by applying filters and selecting preferred transportation modes.</li>
+<li>Transparency, by sourcing data from Open Data Bristol, the application promotes transparency and accountability in providing public information about advice services in the community.</li>
 <p> Overall, "Where To" strives to be a valuable resource for individuals seeking advice and support in Bristol, facilitating seamless access to relevant services and empowering users to make informed decisions.</p>
 
 
