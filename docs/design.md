@@ -15,5 +15,18 @@
 <li>Turn-by-turn directions are provided to guide users to their selected centre efficiently.</li>
 
 
+<h5>Comprehensive Centre Information</h5>
+<li>Users can access detailed information about each Advice Drop-In Centre, including its written address, operating hours, and the types of advice offered.</li>
+<li>This information is presented in an easily navigable table format, allowing users to quickly find relevant details.</li>
+<li>Filters are available to refine search results based on specific criteria, such as advice topics or operating hours.</li>
+
+<h4>Data Source </h4>
+
+<p> The application utilizes the "Advice Drop-In Centre" dataset provided by Open Data Bristol.
+This dataset contains detailed information about advice drop-in sessions covering a range of topics, including debt, energy, benefits, welfare, housing, legal matters, and immigration.
+By leveraging this dataset, "Where To" aims to provide accurate and up-to-date information to users, ensuring transparency and reliability.</p>
+
+
+
 ![Insert your wireframe/wireflow here](images/wireframe2.png)
 
