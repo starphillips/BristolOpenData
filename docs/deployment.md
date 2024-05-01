@@ -16,7 +16,7 @@
 8. The user can click on additional markers to explore more advice centres or close the pop-up window to continue browsing the map.
 
 
-### Use Case 2
+### Use Case 2: Checking the correct and updated information is available on the app and informing of any changes
 ![Insert screenshots here](images/IndexPage.png)
 1.	The app will open on the index page.
 2.	The centre employee shall click on ‘Find By Type’ on the navigation bar to access the table.
@@ -28,7 +28,7 @@
 4.	For example, for debt they will select the ‘Debt’ button on the secondary navigation bar. 
 5.	From here they can identify the venue, address, organisation and advice type of the centre and ensure that the information is correct. 
 
-#### Variation 1 [Checking information on the map is correct] :
+#### Variation 1 [Checking information via the map is correct] :
 ![Insert screenshots here](images/TablePopUp.png)
 6.	 If wanting to ensure the map details are correct they will click on ‘Find By Map’, where a pop-up asking to use their location will appear
 
@@ -39,7 +39,7 @@
 8.	From here the user can zoom in and out or drag on the map until they find their advice centre.
 9.	The employee can now click on the drop pin, where information regarding the centre’s venue name and advice type will appear. Here they can check if the correct information is displayed. 
 
-#### Variation 2 [Checking search bar]:
+#### Variation 2 [Checking information via the search bar]:
 ![Insert screenshots here](images/MapSearch.png)
 10.	Employees can also search for their centre using the search bar. Here they can type in the selected advice type.
 
