@@ -10,9 +10,9 @@
 2. The application prompts the user to give permission to use their location to provide tailored results. 
 3. User grants permission for location access. ![Insert screenshots here](images/MapPopUp.png)
 4. The application centres the map on the user's current location. 
-5. The map displays markers for the locations of Advice centres around Bristol that offer support related to the entered keyword (e.g., debt counselling). 
-6. The user clicks on a marker to view more information. ![Insert screenshots here](images/MapPin.png)
-7. A pop-up window appears, displaying the name of the advice centre and the type of financial advice and support offered (e.g., debt management, budgeting assistance).
+5. The map displays markers for the locations of Advice centres around Bristol that offer support related to the entered keyword (e.g., debt counselling). ![Insert screenshots here](images/MapSearch.png)
+6. The user clicks on a marker to view more information. 
+7. A pop-up window appears, displaying the name of the advice centre and the type of financial advice and support offered (e.g., debt management, budgeting assistance). ![Insert screenshots here](images/MapPin.png)
 8. The user can click on additional markers to explore more advice centres or close the pop-up window to continue browsing the map.
 
 
