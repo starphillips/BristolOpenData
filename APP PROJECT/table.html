@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title> Advice Drop In Centre </title>
+
+    <!-- font links-->
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- icon links-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- W3 CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.13.1/OpenLayers.js"></script>
+    <script src="script.js" defer></script>
+  
+
+        <script>
+
+
+            function query(x) {
+                // let x = "Welfare and Debt Advice";
+                let y = encodeURIComponent(x);
+                let url = `https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/22/query?where=ADVICE_TYPE+LIKE+%27%25${y}%25%27&outFields=VENUE,ADDRESS,ORGANISATION,ADVICE_TYPE&outSR=4326&f=json`;
+                fetch(url,{method: "GET", headers: {Accept: "application/json"}})
+                .then(res =>res.json())
+                .then(outputTable);
+            }
+        </script>
+
+    </head>
+
+
+    <body>
+        <div class="grid-container">
+            <header class="blue padded">
+                ADVICE DROP IN CENTRES
+                <span>
+                    <form class="search" action="table.html">
+                        <input name="searchterm" placeholder="Search..." type="text" />
+                        <button type="submit"><i class="material-icons">search</i></button>
+                    </form>
+                </span>
+
+            
+            
+
+            </header>
+            <nav class="w3-container w3-margin">
+                <button onclick="location.href='index.html'" class="w3-button w3-light-blue w3-border">Home</button>
+                <button onclick="getLocation('map.html')" class="w3-button w3-light-blue w3-border">Find by Map</button>
+                <button onclick="location.href='table.html'" class="w3-button w3-light-blue w3-border">Find by Type</button>
+                </nav>
+            <main>
+                <div class="w3-bar">
+                <button class="w3-bar-item w3-button w3-ripple w3-light-blue" onclick="query('Benefits')"
+                >Benefits</button>
+                <button class="w3-bar-item w3-button w3-ripple w3-light-blue" onclick="query('Debt')"
+                >Debt</button>
+                <button class="w3-bar-item w3-button w3-ripple w3-light-blue" onclick="query('Energy')"
+                >Energy</button>
+                <button class="w3-bar-item w3-button w3-ripple w3-light-blue" onclick="query('General')"
+                >General</button>
+                <button class="w3-bar-item w3-button w3-ripple w3-light-blue" onclick="query('Housing')"
+                >Housing</button>
+                <button class="w3-bar-item w3-button w3-ripple w3-light-blue" onclick="query('Immigration')"
+                >Immigration</button>
+                <button class="w3-bar-item w3-button w3-ripple w3-light-blue" onclick="query('Income Maximisation')"
+                >Income Maximisation</button>
+                <button class="w3-bar-item w3-button w3-ripple w3-light-blue" onclick="query('Legal')"
+                >Legal </button>
+                <button class="w3-bar-item w3-button w3-ripple w3-light-blue" onclick="query('Welfare')"
+                >Welfare</button>
+                </div>
+                
+                
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <th>Venue</th>
+                                <th>Address</th>
+                                <th>Organisation</th>
+                                <th>Advice Type</th>
+                            </tr>
+                    </thead> 
+                <tbody id="results"></tbody>
+            </table>
+
+            </main>
+        </div>
+
+        <script>query("Debt")</script>
+        
+    </body>
+
+
+
+
+
+</html>
