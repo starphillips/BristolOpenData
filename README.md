@@ -6,7 +6,7 @@
 Moreover, 'Where To' enables users to gather comprehensive information about each centre, including its written address, operating hours, and the types of advice offered. This information is conveniently presented in an easily navigable table format, allowing users to apply filters tailored to their specific needs and preferences.
 
 
-The information is sourced from the dataset named 'Advice Drop-In Centre' provided by Open Data Bristol. The dataset includes details aimed at informing the public by indicating the locations of advice drop-in sessions. These sessions cover a range of topics, offering advice on issues such as debt, energy, benefits, welfare, housing, legal matters, and immigration.
+The information is sourced from the dataset named 'Advice Drop-In Centre' provided by Open Data Bristol. The dataset includes details to inform the public by indicating the location of advice drop-in sessions. These sessions cover various topics, offering advice on issues such as debt, energy, benefits, welfare, housing, legal matters, and immigration.
 
 Link to data: https://opendata.bristol.gov.uk/datasets/bcc::advice-drop-in/explore
 
