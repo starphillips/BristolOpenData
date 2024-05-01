@@ -5,13 +5,16 @@
 ![Insert Deployment diagram here](images/DepDiagram.png)
 
 # User guide
-### Use Case 1: Finding Advice Centers by Type
-1. The user opens the application and lands on the home page.
-2. They click on the 'Find by Type' tab to display the list of centres categorized by type.
-3. The list of advice centres appears on the screen.
-4. The user scrolls through the list to identify the name of the advice centre they are interested in.
-5. Upon finding the centre's name, the user clicks on it to view more details.
-6. They review the information displayed about the advice centre.
+### Use Case 1: Identify Free Local Financial Advice & Support
+1. User launches the application and initiates a search by entering a keyword related to their financial concern, such as "Debt".
+2. The application prompts the user to give permission to use their location to provide tailored results. ![Insert screenshots here](images/MapPopUp.png)
+3. User grants permission for location access.
+4. The application centres the map on the user's current location.
+5. The map displays markers for the locations of Advice centres around Bristol that offer support related to the entered keyword (e.g., debt counselling).
+6. The user clicks on a marker to view more information.
+7. A pop-up window appears, displaying the name of the advice centre and the type of financial advice and support offered (e.g., debt management, budgeting assistance).
+8. The user can click on additional markers to explore more advice centres or close the pop-up window to continue browsing the map.
+
 
 ### Use Case 2
 ![Insert screenshots here](images/IndexPage.png)
@@ -43,12 +46,3 @@
 ![Insert screenshots here](images/Table3.png)
 11.	They will then be directed to the table page where they are able to select the desired advice type offered by their centre and identify whether the information displayed is correct on the table. 
 
-### Use Case 3: Verifying Advice Center Information
-1. The user, who is an employee of an advice centre, opens the application and lands on the home page.
-2. They click on the 'Find by Type' tab to display the list of centres.
-3. They scroll through the list and identify their advice centre's name.
-4. Upon finding their centre's name, they click on it to view more details.
-5. The user checks all the information displayed about their advice centre.
-6. If they notice any inaccuracies or outdated information, they note it down.
-7. They decide to get in touch with the application maintainer to report the discrepancies.
-8. The user contacts the app maintainer through the provided contact information to request updates or corrections.
