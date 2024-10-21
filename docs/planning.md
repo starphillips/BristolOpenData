@@ -9,10 +9,10 @@ The 'Where To' project aims to make advice drop-in centres more utilised in Bris
 ### Business benefits
 After recognising the challenge, we have thoroughly contemplated the positive results our app could generate and its efficacy in resolving the identified issue. This is crucial, given our objective to create an app that provides tangible advantages to the local community. Whether it involves streamlining access to advice centers for individuals or maximising the use of existing resources, our focus is on developing a solution that contributes meaningfully. Evaluating the business benefits is imperative, as it aids in outlining the concrete advantages users can derive from engaging with our app.
 
-- Empowers users to find and receive directions to the facilities they require.
-- Enhances convenience by consolidating information in one app, enabling users to easily discover the locations of advice centers that cater to their specific needs.
+- Empowers users to find the facilities they require.
+- Enhances convenience by consolidating information in one app, enabling users to easily discover the locations of advice centres that cater to their specific needs.
 - Optimises the utilisation of existing services available to Bristol residents.
-- Enhances or contributes to the quality of life for individuals who may be unaware of their options through advice centers.
+- Enhances or contributes to the quality of life for individuals who may be unaware of their options through advice centres.
   
 
 ### Options Considered
@@ -25,7 +25,7 @@ Below we have highlighted resources that have already been created, in which the
 ### Expected Risks
 It is significant to outline the risks that may be encountered during the planning and development of the app. This is so we are able to minimise the effect they may have during or after development. Additionally, when planning we can create methods to be able to overcome the expected risks. 
 
-- The app could give a user incorrect directions
+- The app could give a user incorrect details
 - Data being removed
 - Another project may have a similar scope
 - User confusion, they may not understand what the app can be used for 
