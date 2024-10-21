@@ -3,7 +3,7 @@
 <H3> Manual Test Cases:</H3>
 <p> 
 <h4> Test Case ID: MT-001 </h4>
-Test Case Name: Search for Advice Centers by Keyword <br>
+Test Case Name: Search for Advice Centres by Keyword <br>
 Description: Verify that users can search for advice centres by typing in a keyword.<br>
 Prerequisites: Access to the advice drop-in centre system.<br>
 
@@ -17,7 +17,7 @@ Prerequisites: Access to the advice drop-in centre system.<br>
 </ol>
 
 <h4> Test Case ID: MT-002</h4>
-Test Case Name: View Details of an Advice Center<br>
+Test Case Name: View Details of an Advice Centre<br>
 Description: Verify that users can view details of an individual advice centre.<br>
 Prerequisites: Access to the advice drop-in centre system.<br> 
 
@@ -89,7 +89,7 @@ Prerequisites: The user has granted permission to use their location. <br>
 <H3> Automated (Unit) Test Cases:</H3>
 <p>
 <h4> Test Case ID: UT-001 </h4>
-Test Case Name: Query Advice Centers by Keyword <br> 
+Test Case Name: Query Advice Centres by Keyword <br> 
 Description: Test the functionality to query advice centres by keyword.<br> 
 Prerequisites: Codebase with implemented search functionality.<br> 
 Test Data: Keyword "debt advice".
@@ -101,7 +101,7 @@ Test Data: Keyword "debt advice".
 </ol>
 
 <h4>Test Case ID: UT-002</h4>
-Test Case Name: Retrieve Details of an Advice Center<br> 
+Test Case Name: Retrieve Details of an Advice Centre<br> 
 Description: Test the functionality to retrieve details of an individual advice centre.<br> 
 Prerequisites: Codebase with implemented function to retrieve advice centre details.<br> 
 Test Data: JSON object representing an advice centre.<br> 
