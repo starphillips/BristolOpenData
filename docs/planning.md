@@ -7,7 +7,7 @@ The 'Where To' project aims to make advice drop-in centres more utilised in Bris
 
 
 ### Business benefits
-After recognising the challenge, we have thoroughly contemplated the positive results our app could generate and its efficacy in resolving the identified issue. This is crucial, given our objective to create an app that provides tangible advantages to the local community. Whether it involves streamlining access to advice centers for individuals or maximising the use of existing resources, our focus is on developing a solution that contributes meaningfully. Evaluating the business benefits is imperative, as it aids in outlining the concrete advantages users can derive from engaging with our app.
+After recognising the challenge, we have thoroughly contemplated the positive results our app could generate and its efficacy in resolving the identified issue. This is crucial, given our objective to create an app that provides tangible advantages to the local community. Whether it involves streamlining access to advice centres for individuals or maximising the use of existing resources, our focus is on developing a solution that contributes meaningfully. Evaluating the business benefits is imperative, as it aids in outlining the concrete advantages users can derive from engaging with our app.
 
 - Empowers users to find the facilities they require.
 - Enhances convenience by consolidating information in one app, enabling users to easily discover the locations of advice centres that cater to their specific needs.
