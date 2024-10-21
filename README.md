@@ -1,9 +1,9 @@
 ## Where To
 
 
-'Where To' is an application designed to cater to various aspects related to Advice Centers in Bristol. Our primary goal is to empower users to effortlessly pinpoint a suitable Advice Drop-In Centre based on their specific requirements and conveniently locate the ones nearest to them through an interactive map. The application further extends its utility by providing users with a direct route and the estimated time of arrival (ETA) to the selected Advice Drop-In Centre, accommodating their preferred mode of transportation, be it walking, biking, driving, or public transport.
+'Where To' is an application designed to cater to various aspects related to Advice Centers in Bristol. Our primary goal is to empower users to effortlessly pinpoint a suitable Advice Drop-In Centre based on their specific requirements and conveniently locate the ones nearest to them through an interactive map. 
 
-Moreover, 'Where To' enables users to gather comprehensive information about each centre, including its written address, operating hours, and the types of advice offered. This information is conveniently presented in an easily navigable table format, allowing users to apply filters tailored to their specific needs and preferences.
+Moreover, 'Where To' enables users to gather comprehensive information about each centre, including its written address, organisation, and the types of advice offered. This information is conveniently presented in an easily navigable table format, allowing users to apply filters tailored to their specific needs and preferences.
 
 
 The information is sourced from the dataset named 'Advice Drop-In Centre' provided by Open Data Bristol. The dataset includes details to inform the public by indicating the location of advice drop-in sessions. These sessions cover various topics, offering advice on issues such as debt, energy, benefits, welfare, housing, legal matters, and immigration.
