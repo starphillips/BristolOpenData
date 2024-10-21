@@ -16,7 +16,7 @@ As a Bristol resident navigating the challenges of the cost of living crisis, I 
 ### Actors
 Actors that appear in the following use-case are as follows:
 
-- Employees of Advice Centers can utilise it to provide personalised guidance tailored to individuals, ensuring a more comprehensive and well-rounded service.
+- Employees of Advice Centres can utilise it to provide personalised guidance tailored to individuals, ensuring a more comprehensive and well-rounded service.
 - An individual in Bristol actively seeking advice and proactively pursuing information.
 - The developers of the application, along with the application maintenance team.
 
