@@ -1,7 +1,7 @@
 ## Where To
 
 
-'Where To' is an application designed to cater to various aspects related to Advice Centers in Bristol. Our primary goal is to empower users to effortlessly pinpoint a suitable Advice Drop-In Centre based on their specific requirements and conveniently locate the ones nearest to them through an interactive map. 
+'Where To' is an application designed to cater to various aspects related to Advice Centres in Bristol. Our primary goal is to empower users to effortlessly pinpoint a suitable Advice Drop-In Centre based on their specific requirements and conveniently locate the ones nearest to them through an interactive map. 
 
 Moreover, 'Where To' enables users to gather comprehensive information about each centre, including its written address, organisation, and the types of advice offered. This information is conveniently presented in an easily navigable table format, allowing users to apply filters tailored to their specific needs and preferences.
 
